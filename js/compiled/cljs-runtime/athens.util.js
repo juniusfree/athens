@@ -23,8 +23,8 @@ return athens.util.scroll_top_BANG_(container,(((e_top < cs_top))?e_top:(((cs_bo
  * Finds offset between mouse event and container. If container is not passed, use target as container.
  */
 athens.util.mouse_offset = (function athens$util$mouse_offset(var_args){
-var G__46380 = arguments.length;
-switch (G__46380) {
+var G__46382 = arguments.length;
+switch (G__46382) {
 case 1:
 return athens.util.mouse_offset.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -90,10 +90,10 @@ while(true){
 if((node__$1 == null)){
 return cljs.core.reverse(nodes);
 } else {
-var G__46433 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(nodes,node__$1);
-var G__46434 = node__$1.parentNode;
-nodes = G__46433;
-node__$1 = G__46434;
+var G__46436 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(nodes,node__$1);
+var G__46437 = node__$1.parentNode;
+nodes = G__46436;
+node__$1 = G__46437;
 continue;
 }
 break;
@@ -114,8 +114,8 @@ return cljs.core.nth.cljs$core$IFn$_invoke$arity$2(p1,(i - (1)));
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(i,n)){
 return (new Error("No common ancestor after n loops!"));
 } else {
-var G__46438 = (i + (1));
-i = G__46438;
+var G__46439 = (i + (1));
+i = G__46439;
 continue;
 
 }
@@ -190,17 +190,17 @@ return clojure.string.replace(x__$3,/PM/,"pm");
 }
 });
 athens.util.uid_to_date = (function athens$util$uid_to_date(uid){
-try{var vec__46399 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(uid,"-");
-var m = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46399,(0),null);
-var d = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46399,(1),null);
-var y = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46399,(2),null);
+try{var vec__46403 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(uid,"-");
+var m = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46403,(0),null);
+var d = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46403,(1),null);
+var y = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46403,(2),null);
 var rejoin = clojure.string.join.cljs$core$IFn$_invoke$arity$2("-",new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [y,m,d], null));
 return tick.alpha.api.date.cljs$core$IFn$_invoke$arity$1(rejoin);
-}catch (e46398){if((e46398 instanceof Object)){
-var _ = e46398;
+}catch (e46401){if((e46401 instanceof Object)){
+var _ = e46401;
 return null;
 } else {
-throw e46398;
+throw e46401;
 
 }
 }});
@@ -208,8 +208,8 @@ athens.util.is_timeline_page = (function athens$util$is_timeline_page(uid){
 return cljs.core.boolean$(athens.util.uid_to_date(uid));
 });
 athens.util.regex_esc_char_map = (function (){var esc_chars = "()*&^%$#![]";
-return cljs.core.zipmap(esc_chars,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__46405_SHARP_){
-return ["\\",cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__46405_SHARP_)].join('');
+return cljs.core.zipmap(esc_chars,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__46406_SHARP_){
+return ["\\",cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__46406_SHARP_)].join('');
 }),esc_chars));
 })();
 /**

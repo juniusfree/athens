@@ -80,9 +80,9 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cljs.core.merge_with,zprint
 (zprint.config.merge_deep.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(zprint.config.merge_deep.cljs$lang$applyTo = (function (seq30165){
+(zprint.config.merge_deep.cljs$lang$applyTo = (function (seq30167){
 var self__4724__auto__ = this;
-return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq30165));
+return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq30167));
 }));
 
 /**
@@ -101,14 +101,14 @@ return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"fr
  */
 zprint.config.merge_deep_doc = (function zprint$config$merge_deep_doc(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___30334 = arguments.length;
-var i__4737__auto___30335 = (0);
+var len__4736__auto___30331 = arguments.length;
+var i__4737__auto___30332 = (0);
 while(true){
-if((i__4737__auto___30335 < len__4736__auto___30334)){
-args__4742__auto__.push((arguments[i__4737__auto___30335]));
+if((i__4737__auto___30332 < len__4736__auto___30331)){
+args__4742__auto__.push((arguments[i__4737__auto___30332]));
 
-var G__30336 = (i__4737__auto___30335 + (1));
-i__4737__auto___30335 = G__30336;
+var G__30333 = (i__4737__auto___30332 + (1));
+i__4737__auto___30332 = G__30333;
 continue;
 } else {
 }
