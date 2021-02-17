@@ -51,9 +51,9 @@ return this__4380__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__4381__au
 (rewrite_clj.node.whitespace.WhitespaceNode.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4382__auto__,k29451,else__4383__auto__){
 var self__ = this;
 var this__4382__auto____$1 = this;
-var G__29455 = k29451;
-var G__29455__$1 = (((G__29455 instanceof cljs.core.Keyword))?G__29455.fqn:null);
-switch (G__29455__$1) {
+var G__29456 = k29451;
+var G__29456__$1 = (((G__29456 instanceof cljs.core.Keyword))?G__29456.fqn:null);
+switch (G__29456__$1) {
 case "whitespace":
 return self__.whitespace;
 

@@ -123,8 +123,8 @@ var f = c.reagentRender;
 var _ = ((cljs.core.ifn_QMARK_(f))?null:(function(){throw (new Error(["Assert failed: ",["Expected something callable, not ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([f], 0))].join(''),"\n","(clojure.core/ifn? f)"].join('')))})());
 var res = ((c.cljsLegacyRender === true)?f.call(c,c):(function (){var v = reagent.impl.component.get_argv(c);
 var n = cljs.core.count(v);
-var G__31690 = n;
-switch (G__31690) {
+var G__31693 = n;
+switch (G__31693) {
 case (1):
 return f.call(c);
 
@@ -157,8 +157,8 @@ if(cljs.core.ifn_QMARK_(res)){
 var f__$1 = ((reagent.impl.component.reagent_class_QMARK_(res))?((function (c,f,_,res){
 return (function() { 
 var G__31775__delegate = function (args){
-var G__31694 = cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cljs.core.vector,res,args);
-return (reagent.impl.component.as_element.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.component.as_element.cljs$core$IFn$_invoke$arity$1(G__31694) : reagent.impl.component.as_element.call(null,G__31694));
+var G__31697 = cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cljs.core.vector,res,args);
+return (reagent.impl.component.as_element.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.component.as_element.cljs$core$IFn$_invoke$arity$1(G__31697) : reagent.impl.component.as_element.call(null,G__31697));
 };
 var G__31775 = function (var_args){
 var args = null;
@@ -192,12 +192,12 @@ break;
 }
 });
 reagent.impl.component.component_name = (function reagent$impl$component$component_name(c){
-var G__31696 = c;
-var G__31696__$1 = (((G__31696 == null))?null:G__31696.constructor);
-if((G__31696__$1 == null)){
+var G__31698 = c;
+var G__31698__$1 = (((G__31698 == null))?null:G__31698.constructor);
+if((G__31698__$1 == null)){
 return null;
 } else {
-return G__31696__$1.displayName;
+return G__31698__$1.displayName;
 }
 });
 reagent.impl.component.comp_name = (function reagent$impl$component$comp_name(){
@@ -377,10 +377,10 @@ break;
 case "componentWillUnmount":
 return (function reagent$impl$component$custom_wrapper_$_componentWillUnmount(){
 var c = this;
-var G__31740_31780 = goog.object.get(c,"cljsRatom");
-if((G__31740_31780 == null)){
+var G__31732_31780 = goog.object.get(c,"cljsRatom");
+if((G__31732_31780 == null)){
 } else {
-reagent.ratom.dispose_BANG_(G__31740_31780);
+reagent.ratom.dispose_BANG_(G__31732_31780);
 }
 
 reagent.impl.batching.mark_rendered(c);

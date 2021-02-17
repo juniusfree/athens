@@ -5,7 +5,7 @@ goog.provide('reitit.core');
  */
 reitit.core.Expand = function(){};
 
-var reitit$core$Expand$expand$dyn_60923 = (function (this$,opts){
+var reitit$core$Expand$expand$dyn_60924 = (function (this$,opts){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.core.expand[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -23,7 +23,7 @@ reitit.core.expand = (function reitit$core$expand(this$,opts){
 if((((!((this$ == null)))) && ((!((this$.reitit$core$Expand$expand$arity$2 == null)))))){
 return this$.reitit$core$Expand$expand$arity$2(this$,opts);
 } else {
-return reitit$core$Expand$expand$dyn_60923(this$,opts);
+return reitit$core$Expand$expand$dyn_60924(this$,opts);
 }
 });
 
@@ -109,7 +109,7 @@ return reitit$core$Router$routes$dyn_60926(this$);
 }
 });
 
-var reitit$core$Router$compiled_routes$dyn_60927 = (function (this$){
+var reitit$core$Router$compiled_routes$dyn_60929 = (function (this$){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.core.compiled_routes[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -127,11 +127,11 @@ reitit.core.compiled_routes = (function reitit$core$compiled_routes(this$){
 if((((!((this$ == null)))) && ((!((this$.reitit$core$Router$compiled_routes$arity$1 == null)))))){
 return this$.reitit$core$Router$compiled_routes$arity$1(this$);
 } else {
-return reitit$core$Router$compiled_routes$dyn_60927(this$);
+return reitit$core$Router$compiled_routes$dyn_60929(this$);
 }
 });
 
-var reitit$core$Router$options$dyn_60928 = (function (this$){
+var reitit$core$Router$options$dyn_60930 = (function (this$){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.core.options[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -149,11 +149,11 @@ reitit.core.options = (function reitit$core$options(this$){
 if((((!((this$ == null)))) && ((!((this$.reitit$core$Router$options$arity$1 == null)))))){
 return this$.reitit$core$Router$options$arity$1(this$);
 } else {
-return reitit$core$Router$options$dyn_60928(this$);
+return reitit$core$Router$options$dyn_60930(this$);
 }
 });
 
-var reitit$core$Router$route_names$dyn_60930 = (function (this$){
+var reitit$core$Router$route_names$dyn_60933 = (function (this$){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.core.route_names[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -171,11 +171,11 @@ reitit.core.route_names = (function reitit$core$route_names(this$){
 if((((!((this$ == null)))) && ((!((this$.reitit$core$Router$route_names$arity$1 == null)))))){
 return this$.reitit$core$Router$route_names$arity$1(this$);
 } else {
-return reitit$core$Router$route_names$dyn_60930(this$);
+return reitit$core$Router$route_names$dyn_60933(this$);
 }
 });
 
-var reitit$core$Router$match_by_path$dyn_60932 = (function (this$,path){
+var reitit$core$Router$match_by_path$dyn_60935 = (function (this$,path){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.core.match_by_path[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -193,13 +193,13 @@ reitit.core.match_by_path = (function reitit$core$match_by_path(this$,path){
 if((((!((this$ == null)))) && ((!((this$.reitit$core$Router$match_by_path$arity$2 == null)))))){
 return this$.reitit$core$Router$match_by_path$arity$2(this$,path);
 } else {
-return reitit$core$Router$match_by_path$dyn_60932(this$,path);
+return reitit$core$Router$match_by_path$dyn_60935(this$,path);
 }
 });
 
-var reitit$core$Router$match_by_name$dyn_60934 = (function() {
-var G__60935 = null;
-var G__60935__2 = (function (this$,name){
+var reitit$core$Router$match_by_name$dyn_60938 = (function() {
+var G__60939 = null;
+var G__60939__2 = (function (this$,name){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.core.match_by_name[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -213,7 +213,7 @@ throw cljs.core.missing_protocol("Router.match-by-name",this$);
 }
 }
 });
-var G__60935__3 = (function (this$,name,path_params){
+var G__60939__3 = (function (this$,name,path_params){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.core.match_by_name[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -227,18 +227,18 @@ throw cljs.core.missing_protocol("Router.match-by-name",this$);
 }
 }
 });
-G__60935 = function(this$,name,path_params){
+G__60939 = function(this$,name,path_params){
 switch(arguments.length){
 case 2:
-return G__60935__2.call(this,this$,name);
+return G__60939__2.call(this,this$,name);
 case 3:
-return G__60935__3.call(this,this$,name,path_params);
+return G__60939__3.call(this,this$,name,path_params);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
-G__60935.cljs$core$IFn$_invoke$arity$2 = G__60935__2;
-G__60935.cljs$core$IFn$_invoke$arity$3 = G__60935__3;
-return G__60935;
+G__60939.cljs$core$IFn$_invoke$arity$2 = G__60939__2;
+G__60939.cljs$core$IFn$_invoke$arity$3 = G__60939__3;
+return G__60939;
 })()
 ;
 reitit.core.match_by_name = (function reitit$core$match_by_name(var_args){
@@ -262,7 +262,7 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 if((((!((this$ == null)))) && ((!((this$.reitit$core$Router$match_by_name$arity$2 == null)))))){
 return this$.reitit$core$Router$match_by_name$arity$2(this$,name);
 } else {
-return reitit$core$Router$match_by_name$dyn_60934(this$,name);
+return reitit$core$Router$match_by_name$dyn_60938(this$,name);
 }
 }));
 
@@ -270,7 +270,7 @@ return reitit$core$Router$match_by_name$dyn_60934(this$,name);
 if((((!((this$ == null)))) && ((!((this$.reitit$core$Router$match_by_name$arity$3 == null)))))){
 return this$.reitit$core$Router$match_by_name$arity$3(this$,name,path_params);
 } else {
-return reitit$core$Router$match_by_name$dyn_60934(this$,name,path_params);
+return reitit$core$Router$match_by_name$dyn_60938(this$,name,path_params);
 }
 }));
 

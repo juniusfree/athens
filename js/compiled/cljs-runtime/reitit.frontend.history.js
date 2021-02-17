@@ -55,7 +55,7 @@ return reitit$frontend$history$History$_stop$dyn_61072(this$);
 }
 });
 
-var reitit$frontend$history$History$_on_navigate$dyn_61074 = (function (this$,path){
+var reitit$frontend$history$History$_on_navigate$dyn_61075 = (function (this$,path){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.frontend.history._on_navigate[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -73,7 +73,7 @@ reitit.frontend.history._on_navigate = (function reitit$frontend$history$_on_nav
 if((((!((this$ == null)))) && ((!((this$.reitit$frontend$history$History$_on_navigate$arity$2 == null)))))){
 return this$.reitit$frontend$history$History$_on_navigate$arity$2(this$,path);
 } else {
-return reitit$frontend$history$History$_on_navigate$dyn_61074(this$,path);
+return reitit$frontend$history$History$_on_navigate$dyn_61075(this$,path);
 }
 });
 
@@ -99,7 +99,7 @@ return reitit$frontend$history$History$_get_path$dyn_61076(this$);
 }
 });
 
-var reitit$frontend$history$History$_href$dyn_61077 = (function (this$,path){
+var reitit$frontend$history$History$_href$dyn_61079 = (function (this$,path){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.frontend.history._href[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -117,7 +117,7 @@ reitit.frontend.history._href = (function reitit$frontend$history$_href(this$,pa
 if((((!((this$ == null)))) && ((!((this$.reitit$frontend$history$History$_href$arity$2 == null)))))){
 return this$.reitit$frontend$history$History$_href$arity$2(this$,path);
 } else {
-return reitit$frontend$history$History$_href$dyn_61077(this$,path);
+return reitit$frontend$history$History$_href$dyn_61079(this$,path);
 }
 });
 

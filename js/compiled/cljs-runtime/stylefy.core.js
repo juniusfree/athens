@@ -97,8 +97,8 @@ return stylefy.impl.styles.use_style_BANG_(style,options,stylefy.impl.dom.save_s
  * take a look at sub-style function.
  */
 stylefy.core.use_sub_style = (function stylefy$core$use_sub_style(var_args){
-var G__55455 = arguments.length;
-switch (G__55455) {
+var G__55448 = arguments.length;
+switch (G__55448) {
 case 2:
 return stylefy.core.use_sub_style.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -299,11 +299,11 @@ return null;
 (stylefy.core.keyframes.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(stylefy.core.keyframes.cljs$lang$applyTo = (function (seq55473){
-var G__55474 = cljs.core.first(seq55473);
-var seq55473__$1 = cljs.core.next(seq55473);
+(stylefy.core.keyframes.cljs$lang$applyTo = (function (seq55470){
+var G__55471 = cljs.core.first(seq55470);
+var seq55470__$1 = cljs.core.next(seq55470);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__55474,seq55473__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__55471,seq55470__$1);
 }));
 
 /**

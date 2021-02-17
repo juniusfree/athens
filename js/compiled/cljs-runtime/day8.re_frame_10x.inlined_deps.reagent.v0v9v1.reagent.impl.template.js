@@ -94,14 +94,14 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(x,args);
 var G__26653 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__26656__i = 0, G__26656__a = new Array(arguments.length -  0);
-while (G__26656__i < G__26656__a.length) {G__26656__a[G__26656__i] = arguments[G__26656__i + 0]; ++G__26656__i;}
-  args = new cljs.core.IndexedSeq(G__26656__a,0,null);
+var G__26654__i = 0, G__26654__a = new Array(arguments.length -  0);
+while (G__26654__i < G__26654__a.length) {G__26654__a[G__26654__i] = arguments[G__26654__i + 0]; ++G__26654__i;}
+  args = new cljs.core.IndexedSeq(G__26654__a,0,null);
 } 
 return G__26653__delegate.call(this,args);};
 G__26653.cljs$lang$maxFixedArity = 0;
-G__26653.cljs$lang$applyTo = (function (arglist__26657){
-var args = cljs.core.seq(arglist__26657);
+G__26653.cljs$lang$applyTo = (function (arglist__26655){
+var args = cljs.core.seq(arglist__26655);
 return G__26653__delegate(args);
 });
 G__26653.cljs$core$IFn$_invoke$arity$variadic = G__26653__delegate;
@@ -135,10 +135,10 @@ return k;
 }
 });
 day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.custom_kv_conv = (function day8$re_frame_10x$inlined_deps$reagent$v0v9v1$reagent$impl$template$custom_kv_conv(o,k,v){
-var G__26630 = o;
-goog.object.set(G__26630,day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.cached_custom_prop_name(k),day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.convert_prop_value(v));
+var G__26628 = o;
+goog.object.set(G__26628,day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.cached_custom_prop_name(k),day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.convert_prop_value(v));
 
-return G__26630;
+return G__26628;
 });
 day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.convert_custom_prop_value = (function day8$re_frame_10x$inlined_deps$reagent$v0v9v1$reagent$impl$template$convert_custom_prop_value(x){
 if(day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.js_val_QMARK_(x)){
