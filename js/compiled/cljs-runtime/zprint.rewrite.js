@@ -71,10 +71,10 @@ var dep_seq = (function (){var nloc = zloc;
 var out = cljs.core.PersistentVector.EMPTY;
 while(true){
 if(cljs.core.truth_(nloc)){
-var G__30112 = (rewrite_clj.zip.right.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.right.cljs$core$IFn$_invoke$arity$1(nloc) : rewrite_clj.zip.right.call(null,nloc));
-var G__30113 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,nloc);
-nloc = G__30112;
-out = G__30113;
+var G__30114 = (rewrite_clj.zip.right.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.right.cljs$core$IFn$_invoke$arity$1(nloc) : rewrite_clj.zip.right.call(null,nloc));
+var G__30115 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,nloc);
+nloc = G__30114;
+out = G__30115;
 continue;
 } else {
 return out;

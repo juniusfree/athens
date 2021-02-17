@@ -224,9 +224,9 @@ return actual_options;
  */
 zprint.core.zprint_STAR_ = (function zprint$core$zprint_STAR_(coll,special_option,actual_options){
 if(cljs.core.truth_(special_option)){
-var G__31242 = special_option;
-var G__31242__$1 = (((G__31242 instanceof cljs.core.Keyword))?G__31242.fqn:null);
-switch (G__31242__$1) {
+var G__31245 = special_option;
+var G__31245__$1 = (((G__31245 instanceof cljs.core.Keyword))?G__31245.fqn:null);
+switch (G__31245__$1) {
 case "explain":
 return zprint.core.fzprint_style(zprint.config.get_explained_options(),zprint.config.merge_deep.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([zprint.config.get_default_options(),actual_options], 0)));
 
@@ -273,10 +273,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.dissoc.cljs$core$
 /**
  * Select the elements from start to end from a vector.
  */
-zprint.core.range_vec = (function zprint$core$range_vec(v,p__31249){
-var vec__31250 = p__31249;
-var start = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31250,(0),null);
-var end = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31250,(1),null);
+zprint.core.range_vec = (function zprint$core$range_vec(v,p__31252){
+var vec__31253 = p__31252;
+var start = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31253,(0),null);
+var end = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31253,(1),null);
 return cljs.core.take.cljs$core$IFn$_invoke$arity$2((end - start),cljs.core.drop.cljs$core$IFn$_invoke$arity$2(start,v));
 });
 /**
@@ -506,14 +506,14 @@ return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31275,seq31274
  */
 zprint.core.zprint = (function zprint$core$zprint(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___31315 = arguments.length;
-var i__4737__auto___31316 = (0);
+var len__4736__auto___31311 = arguments.length;
+var i__4737__auto___31312 = (0);
 while(true){
-if((i__4737__auto___31316 < len__4736__auto___31315)){
-args__4742__auto__.push((arguments[i__4737__auto___31316]));
+if((i__4737__auto___31312 < len__4736__auto___31311)){
+args__4742__auto__.push((arguments[i__4737__auto___31312]));
 
-var G__31317 = (i__4737__auto___31316 + (1));
-i__4737__auto___31316 = G__31317;
+var G__31317 = (i__4737__auto___31312 + (1));
+i__4737__auto___31312 = G__31317;
 continue;
 } else {
 }
