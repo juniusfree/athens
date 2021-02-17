@@ -160,16 +160,16 @@ return uid;
 }
 })());
 });})(i__61880,vec__61882,i,map__61885,map__61885__$1,title,string,uid,c__4527__auto__,size__4528__auto__,b__61881,s__61879__$2,temp__5735__auto__,map__61874,map__61874__$1,caret_position,query,results,index,type,map__61875,map__61875__$1,left,top,ref,handle_click_outside))
-,new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"text-align","text-align",1786091845),"left"], null)], null),(function (){var or__4126__auto__ = title;
+,new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"text-align","text-align",1786091845),"left"], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.parse_renderer.parse_and_render,(function (){var or__4126__auto__ = title;
 if(cljs.core.truth_(or__4126__auto__)){
 return or__4126__auto__;
 } else {
 return string;
 }
-})()], null));
+})(),uid], null)], null));
 
-var G__61957 = (i__61880 + (1));
-i__61880 = G__61957;
+var G__61971 = (i__61880 + (1));
+i__61880 = G__61971;
 continue;
 } else {
 return true;
@@ -199,13 +199,13 @@ return uid;
 }
 })());
 });})(vec__61887,i,map__61890,map__61890__$1,title,string,uid,s__61879__$2,temp__5735__auto__,map__61874,map__61874__$1,caret_position,query,results,index,type,map__61875,map__61875__$1,left,top,ref,handle_click_outside))
-,new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"text-align","text-align",1786091845),"left"], null)], null),(function (){var or__4126__auto__ = title;
+,new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"text-align","text-align",1786091845),"left"], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.parse_renderer.parse_and_render,(function (){var or__4126__auto__ = title;
 if(cljs.core.truth_(or__4126__auto__)){
 return or__4126__auto__;
 } else {
 return string;
 }
-})()], null),athens$views$blocks$inline_search_el_$_iter__61878(cljs.core.rest(s__61879__$2)));
+})(),uid], null)], null),athens$views$blocks$inline_search_el_$_iter__61878(cljs.core.rest(s__61879__$2)));
 }
 } else {
 return null;
@@ -287,8 +287,8 @@ return athens.views.blocks.slash_item_click(state__$1,block,item);
 });})(i__61901,vec__61903,i,vec__61906,text,icon,_expansion,kbd,_pos,item,c__4527__auto__,size__4528__auto__,b__61902,s__61900__$2,temp__5735__auto__,map__61895,map__61895__$1,caret_position,index,results,type,map__61896,map__61896__$1,left,top,ref,handle_click_outside))
 ], null),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"<>","<>",1280186386),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [reagent.core.adapt_react_class(icon)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),text], null),(cljs.core.truth_(kbd)?new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"kbd","kbd",316156875),kbd], null):null)], null)], null));
 
-var G__61963 = (i__61901 + (1));
-i__61901 = G__61963;
+var G__61972 = (i__61901 + (1));
+i__61901 = G__61972;
 continue;
 } else {
 return true;

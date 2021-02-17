@@ -31,7 +31,7 @@ return reitit$coercion$Coercion$_get_name$dyn_60716(this$);
 }
 });
 
-var reitit$coercion$Coercion$_get_options$dyn_60720 = (function (this$){
+var reitit$coercion$Coercion$_get_options$dyn_60717 = (function (this$){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.coercion._get_options[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -52,11 +52,11 @@ reitit.coercion._get_options = (function reitit$coercion$_get_options(this$){
 if((((!((this$ == null)))) && ((!((this$.reitit$coercion$Coercion$_get_options$arity$1 == null)))))){
 return this$.reitit$coercion$Coercion$_get_options$arity$1(this$);
 } else {
-return reitit$coercion$Coercion$_get_options$dyn_60720(this$);
+return reitit$coercion$Coercion$_get_options$dyn_60717(this$);
 }
 });
 
-var reitit$coercion$Coercion$_get_apidocs$dyn_60721 = (function (this$,specification,data){
+var reitit$coercion$Coercion$_get_apidocs$dyn_60718 = (function (this$,specification,data){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.coercion._get_apidocs[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -77,11 +77,11 @@ reitit.coercion._get_apidocs = (function reitit$coercion$_get_apidocs(this$,spec
 if((((!((this$ == null)))) && ((!((this$.reitit$coercion$Coercion$_get_apidocs$arity$3 == null)))))){
 return this$.reitit$coercion$Coercion$_get_apidocs$arity$3(this$,specification,data);
 } else {
-return reitit$coercion$Coercion$_get_apidocs$dyn_60721(this$,specification,data);
+return reitit$coercion$Coercion$_get_apidocs$dyn_60718(this$,specification,data);
 }
 });
 
-var reitit$coercion$Coercion$_compile_model$dyn_60722 = (function (this$,model,name){
+var reitit$coercion$Coercion$_compile_model$dyn_60719 = (function (this$,model,name){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.coercion._compile_model[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -102,7 +102,7 @@ reitit.coercion._compile_model = (function reitit$coercion$_compile_model(this$,
 if((((!((this$ == null)))) && ((!((this$.reitit$coercion$Coercion$_compile_model$arity$3 == null)))))){
 return this$.reitit$coercion$Coercion$_compile_model$arity$3(this$,model,name);
 } else {
-return reitit$coercion$Coercion$_compile_model$dyn_60722(this$,model,name);
+return reitit$coercion$Coercion$_compile_model$dyn_60719(this$,model,name);
 }
 });
 
@@ -241,8 +241,8 @@ return this__4380__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__4381__au
 (reitit.coercion.CoercionError.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4382__auto__,k60643,else__4383__auto__){
 var self__ = this;
 var this__4382__auto____$1 = this;
-var G__60648 = k60643;
-switch (G__60648) {
+var G__60647 = k60643;
+switch (G__60647) {
 default:
 return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k60643,else__4383__auto__);
 
@@ -799,12 +799,12 @@ var body = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60698__$1,new cljs.c
 if(cljs.core.truth_(body)){
 cljs.core.chunk_append(b__60694,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,reitit.coercion.response_coercer(coercion,body,opts)], null));
 
-var G__60768 = (i__60693 + (1));
-i__60693 = G__60768;
+var G__60767 = (i__60693 + (1));
+i__60693 = G__60767;
 continue;
 } else {
-var G__60769 = (i__60693 + (1));
-i__60693 = G__60769;
+var G__60768 = (i__60693 + (1));
+i__60693 = G__60768;
 continue;
 }
 } else {
@@ -826,8 +826,8 @@ var body = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60703__$1,new cljs.c
 if(cljs.core.truth_(body)){
 return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,reitit.coercion.response_coercer(coercion,body,opts)], null),reitit$coercion$response_coercers_$_iter__60691(cljs.core.rest(s__60692__$2)));
 } else {
-var G__60770 = cljs.core.rest(s__60692__$2);
-s__60692__$1 = G__60770;
+var G__60769 = cljs.core.rest(s__60692__$2);
+s__60692__$1 = G__60769;
 continue;
 }
 }
