@@ -695,8 +695,8 @@ return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 3, 5, cljs.co
 });})(i__62061,block,c__4527__auto__,size__4528__auto__,b__62062,s__62060__$2,temp__5735__auto____$1,vec__62056,group_title,group,s__62040__$2,temp__5735__auto__,unlinked_QMARK_))
 ], null),"Link"], null):null)], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),["ref-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword("block","uid","block/uid",-1623585167).cljs$core$IFn$_invoke$arity$1(block))].join('')], null)));
 
-var G__62097 = (i__62061 + (1));
-i__62061 = G__62097;
+var G__62089 = (i__62061 + (1));
+i__62061 = G__62089;
 continue;
 } else {
 return true;
@@ -816,8 +816,8 @@ var child = map__62077__$1;
 var uid__$1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__62077__$1,new cljs.core.Keyword("block","uid","block/uid",-1623585167));
 cljs.core.chunk_append(b__62076,cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.blocks.block_el,child], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),uid__$1], null)));
 
-var G__62119 = (i__62075 + (1));
-i__62075 = G__62119;
+var G__62090 = (i__62075 + (1));
+i__62075 = G__62090;
 continue;
 } else {
 return true;

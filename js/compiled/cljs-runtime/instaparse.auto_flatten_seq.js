@@ -139,8 +139,8 @@ break;
 }
 });
 instaparse.auto_flatten_seq.flat_seq = (function instaparse$auto_flatten_seq$flat_seq(var_args){
-var G__46498 = arguments.length;
-switch (G__46498) {
+var G__46500 = arguments.length;
+switch (G__46500) {
 case 1:
 return instaparse.auto_flatten_seq.flat_seq.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -367,8 +367,8 @@ return (cljs.core.imul(e,v1.premix_hashcode) + (v2.premix_hashcode - e));
  * Returns the partially calculated hash code, still requires a call to mix-collection-hash
  */
 instaparse.auto_flatten_seq.hash_ordered_coll_without_mix = (function instaparse$auto_flatten_seq$hash_ordered_coll_without_mix(var_args){
-var G__46541 = arguments.length;
-switch (G__46541) {
+var G__46536 = arguments.length;
+switch (G__46536) {
 case 1:
 return instaparse.auto_flatten_seq.hash_ordered_coll_without_mix.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -392,10 +392,10 @@ var unmixed_hash = existing_unmixed_hash;
 var coll__$1 = cljs.core.seq(coll);
 while(true){
 if((!((coll__$1 == null)))){
-var G__46581 = ((cljs.core.imul((31),unmixed_hash) + cljs.core.hash(cljs.core.first(coll__$1))) | (0));
-var G__46582 = cljs.core.next(coll__$1);
-unmixed_hash = G__46581;
-coll__$1 = G__46582;
+var G__46582 = ((cljs.core.imul((31),unmixed_hash) + cljs.core.hash(cljs.core.first(coll__$1))) | (0));
+var G__46583 = cljs.core.next(coll__$1);
+unmixed_hash = G__46582;
+coll__$1 = G__46583;
 continue;
 } else {
 return unmixed_hash;
@@ -464,7 +464,7 @@ return cljs.core.persistent_BANG_(instaparse.auto_flatten_seq.flat_vec_helper(cl
  */
 instaparse.auto_flatten_seq.GetVec = function(){};
 
-var instaparse$auto_flatten_seq$GetVec$get_vec$dyn_46588 = (function (self){
+var instaparse$auto_flatten_seq$GetVec$get_vec$dyn_46590 = (function (self){
 var x__4428__auto__ = (((self == null))?null:self);
 var m__4429__auto__ = (instaparse.auto_flatten_seq.get_vec[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -482,7 +482,7 @@ instaparse.auto_flatten_seq.get_vec = (function instaparse$auto_flatten_seq$get_
 if((((!((self == null)))) && ((!((self.instaparse$auto_flatten_seq$GetVec$get_vec$arity$1 == null)))))){
 return self.instaparse$auto_flatten_seq$GetVec$get_vec$arity$1(self);
 } else {
-return instaparse$auto_flatten_seq$GetVec$get_vec$dyn_46588(self);
+return instaparse$auto_flatten_seq$GetVec$get_vec$dyn_46590(self);
 }
 });
 
