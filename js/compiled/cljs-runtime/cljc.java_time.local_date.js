@@ -83,8 +83,8 @@ cljc.java_time.local_date.minus_months = (function cljc$java_time$local_date$min
 return this3508.minusMonths(long3509);
 });
 cljc.java_time.local_date.minus = (function cljc$java_time$local_date$minus(var_args){
-var G__41719 = arguments.length;
-switch (G__41719) {
+var G__41717 = arguments.length;
+switch (G__41717) {
 case 2:
 return cljc.java_time.local_date.minus.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -308,8 +308,8 @@ cljc.java_time.local_date.equals = (function cljc$java_time$local_date$equals(th
 return this3565.equals(java_lang_Object3566);
 });
 cljc.java_time.local_date.at_time = (function cljc$java_time$local_date$at_time(var_args){
-var G__41737 = arguments.length;
-switch (G__41737) {
+var G__41735 = arguments.length;
+switch (G__41735) {
 case 2:
 return cljc.java_time.local_date.at_time.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 

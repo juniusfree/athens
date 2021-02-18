@@ -50,12 +50,12 @@ athens.style.app_styles = new cljs.core.PersistentArrayMap(null, 3, [new cljs.co
  *   There are 5 opacities and 12 colors. There are 72 keys (includes default opacity, 1.0)
  */
 athens.style.permute_color_opacities = (function athens$style$permute_color_opacities(theme){
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__61225){
-var vec__61226 = p__61225;
-var color_k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__61226,(0),null);
-var color_v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__61226,(1),null);
-return cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(["--",cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(color_k))].join('')),color_v], null),cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__61230){
-var vec__61232 = p__61230;
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__61227){
+var vec__61228 = p__61227;
+var color_k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__61228,(0),null);
+var color_v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__61228,(1),null);
+return cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(["--",cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(color_k))].join('')),color_v], null),cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__61231){
+var vec__61232 = p__61231;
 var opacity_k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__61232,(0),null);
 var opacity_v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__61232,(1),null);
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(["--",cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(color_k)),"---",cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(opacity_k))].join('')),garden.color.opacify(garden.color.hex__GT_hsl(color_v),opacity_v)], null);

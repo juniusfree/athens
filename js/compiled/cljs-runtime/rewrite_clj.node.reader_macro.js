@@ -624,10 +624,10 @@ return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k29562,else__
 (rewrite_clj.node.reader_macro.DerefNode.prototype.cljs$core$IKVReduce$_kv_reduce$arity$3 = (function (this__4399__auto__,f__4400__auto__,init__4401__auto__){
 var self__ = this;
 var this__4399__auto____$1 = this;
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4402__auto__,p__29567){
-var vec__29568 = p__29567;
-var k__4403__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29568,(0),null);
-var v__4404__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29568,(1),null);
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4402__auto__,p__29571){
+var vec__29573 = p__29571;
+var k__4403__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29573,(0),null);
+var v__4404__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29573,(1),null);
 return (f__4400__auto__.cljs$core$IFn$_invoke$arity$3 ? f__4400__auto__.cljs$core$IFn$_invoke$arity$3(ret__4402__auto__,k__4403__auto__,v__4404__auto__) : f__4400__auto__.call(null,ret__4402__auto__,k__4403__auto__,v__4404__auto__));
 }),init__4401__auto__,this__4399__auto____$1);
 }));
@@ -861,8 +861,8 @@ return (new cljs.core.List(null,new cljs.core.Symbol(null,"eval","eval",53696362
 });})(children))
 ,(1),children);
 } else {
-var G__29607 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [children], null);
-children = G__29607;
+var G__29608 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [children], null);
+children = G__29608;
 continue;
 }
 break;
