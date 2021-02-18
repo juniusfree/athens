@@ -66,9 +66,9 @@ var count__27715 = (0);
 var i__27716 = (0);
 while(true){
 if((i__27716 < count__27715)){
-var vec__27725 = chunk__27714.cljs$core$IIndexed$_nth$arity$2(null,i__27716);
-var effect_key = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__27725,(0),null);
-var effect_value = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__27725,(1),null);
+var vec__27723 = chunk__27714.cljs$core$IIndexed$_nth$arity$2(null,i__27716);
+var effect_key = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__27723,(0),null);
+var effect_value = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__27723,(1),null);
 var temp__5733__auto___27768 = day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.registrar.get_handler.cljs$core$IFn$_invoke$arity$3(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.fx.kind,effect_key,false);
 if(cljs.core.truth_(temp__5733__auto___27768)){
 var effect_fn_27769 = temp__5733__auto___27768;
@@ -147,9 +147,9 @@ var count__27733 = (0);
 var i__27734 = (0);
 while(true){
 if((i__27734 < count__27733)){
-var vec__27742 = chunk__27732.cljs$core$IIndexed$_nth$arity$2(null,i__27734);
-var effect_key = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__27742,(0),null);
-var effect_value = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__27742,(1),null);
+var vec__27741 = chunk__27732.cljs$core$IIndexed$_nth$arity$2(null,i__27734);
+var effect_key = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__27741,(0),null);
+var effect_value = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__27741,(1),null);
 var temp__5733__auto___27786 = day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.registrar.get_handler.cljs$core$IFn$_invoke$arity$3(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.fx.kind,effect_key,false);
 if(cljs.core.truth_(temp__5733__auto___27786)){
 var effect_fn_27787 = temp__5733__auto___27786;
@@ -187,10 +187,10 @@ continue;
 var vec__27745 = cljs.core.first(seq__27731__$1);
 var effect_key = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__27745,(0),null);
 var effect_value = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__27745,(1),null);
-var temp__5733__auto___27799 = day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.registrar.get_handler.cljs$core$IFn$_invoke$arity$3(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.fx.kind,effect_key,false);
-if(cljs.core.truth_(temp__5733__auto___27799)){
-var effect_fn_27800 = temp__5733__auto___27799;
-(effect_fn_27800.cljs$core$IFn$_invoke$arity$1 ? effect_fn_27800.cljs$core$IFn$_invoke$arity$1(effect_value) : effect_fn_27800.call(null,effect_value));
+var temp__5733__auto___27796 = day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.registrar.get_handler.cljs$core$IFn$_invoke$arity$3(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.fx.kind,effect_key,false);
+if(cljs.core.truth_(temp__5733__auto___27796)){
+var effect_fn_27797 = temp__5733__auto___27796;
+(effect_fn_27797.cljs$core$IFn$_invoke$arity$1 ? effect_fn_27797.cljs$core$IFn$_invoke$arity$1(effect_value) : effect_fn_27797.call(null,effect_value));
 } else {
 day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["re-frame: no handler registered for effect:",effect_key,". Ignoring."], 0));
 }
@@ -316,14 +316,14 @@ var event = chunk__27761.cljs$core$IIndexed$_nth$arity$2(null,i__27763);
 day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.router.dispatch(event);
 
 
-var G__27823 = seq__27760;
-var G__27824 = chunk__27761;
-var G__27825 = count__27762;
-var G__27826 = (i__27763 + (1));
-seq__27760 = G__27823;
-chunk__27761 = G__27824;
-count__27762 = G__27825;
-i__27763 = G__27826;
+var G__27821 = seq__27760;
+var G__27822 = chunk__27761;
+var G__27823 = count__27762;
+var G__27824 = (i__27763 + (1));
+seq__27760 = G__27821;
+chunk__27761 = G__27822;
+count__27762 = G__27823;
+i__27763 = G__27824;
 continue;
 } else {
 var temp__5735__auto__ = cljs.core.seq(seq__27760);
@@ -405,14 +405,14 @@ var event = cljs.core.first(seq__27764__$1);
 clear_event(event);
 
 
-var G__27845 = cljs.core.next(seq__27764__$1);
-var G__27846 = null;
-var G__27847 = (0);
-var G__27848 = (0);
-seq__27764 = G__27845;
-chunk__27765 = G__27846;
-count__27766 = G__27847;
-i__27767 = G__27848;
+var G__27843 = cljs.core.next(seq__27764__$1);
+var G__27844 = null;
+var G__27845 = (0);
+var G__27846 = (0);
+seq__27764 = G__27843;
+chunk__27765 = G__27844;
+count__27766 = G__27845;
+i__27767 = G__27846;
 continue;
 }
 } else {

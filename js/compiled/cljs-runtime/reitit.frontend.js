@@ -45,8 +45,8 @@ return null;
  *   or `nil` (no match).
  */
 reitit.frontend.match_by_name = (function reitit$frontend$match_by_name(var_args){
-var G__60931 = arguments.length;
-switch (G__60931) {
+var G__60929 = arguments.length;
+switch (G__60929) {
 case 2:
 return reitit.frontend.match_by_name.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -76,8 +76,8 @@ return reitit.core.match_by_name(router,name,path_params);
  *   Enables request coercion. See [[reitit.core/router]] for details on options.
  */
 reitit.frontend.router = (function reitit$frontend$router(var_args){
-var G__60935 = arguments.length;
-switch (G__60935) {
+var G__60933 = arguments.length;
+switch (G__60933) {
 case 1:
 return reitit.frontend.router.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -106,8 +106,8 @@ return reitit.core.router.cljs$core$IFn$_invoke$arity$2(raw_routes,cljs.core.mer
  * Logs problems using console.warn
  */
 reitit.frontend.match_by_name_BANG_ = (function reitit$frontend$match_by_name_BANG_(var_args){
-var G__60940 = arguments.length;
-switch (G__60940) {
+var G__60939 = arguments.length;
+switch (G__60939) {
 case 2:
 return reitit.frontend.match_by_name_BANG_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 

@@ -43,9 +43,9 @@ return this__4380__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__4381__au
 (rewrite_clj.node.keyword.KeywordNode.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4382__auto__,k29380,else__4383__auto__){
 var self__ = this;
 var this__4382__auto____$1 = this;
-var G__29384 = k29380;
-var G__29384__$1 = (((G__29384 instanceof cljs.core.Keyword))?G__29384.fqn:null);
-switch (G__29384__$1) {
+var G__29389 = k29380;
+var G__29389__$1 = (((G__29389 instanceof cljs.core.Keyword))?G__29389.fqn:null);
+switch (G__29389__$1) {
 case "k":
 return self__.k;
 
@@ -257,11 +257,11 @@ return (new rewrite_clj.node.keyword.KeywordNode(k,namespaced_QMARK_,null,null,n
  * Factory function for rewrite-clj.node.keyword/KeywordNode, taking a map of keywords to field values.
  */
 rewrite_clj.node.keyword.map__GT_KeywordNode = (function rewrite_clj$node$keyword$map__GT_KeywordNode(G__29383){
-var extmap__4419__auto__ = (function (){var G__29402 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__29383,new cljs.core.Keyword(null,"k","k",-2146297393),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"namespaced?","namespaced?",-877312877)], 0));
+var extmap__4419__auto__ = (function (){var G__29405 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__29383,new cljs.core.Keyword(null,"k","k",-2146297393),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"namespaced?","namespaced?",-877312877)], 0));
 if(cljs.core.record_QMARK_(G__29383)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29402);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29405);
 } else {
-return G__29402;
+return G__29405;
 }
 })();
 return (new rewrite_clj.node.keyword.KeywordNode(new cljs.core.Keyword(null,"k","k",-2146297393).cljs$core$IFn$_invoke$arity$1(G__29383),new cljs.core.Keyword(null,"namespaced?","namespaced?",-877312877).cljs$core$IFn$_invoke$arity$1(G__29383),null,cljs.core.not_empty(extmap__4419__auto__),null));

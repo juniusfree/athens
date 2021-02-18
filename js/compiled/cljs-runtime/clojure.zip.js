@@ -428,8 +428,8 @@ return and__4115__auto__;
 })();
 if(cljs.core.truth_(temp__5733__auto____$1)){
 var child = temp__5733__auto____$1;
-var G__29782 = clojure.zip.rightmost(child);
-loc__$1 = G__29782;
+var G__29783 = clojure.zip.rightmost(child);
+loc__$1 = G__29783;
 continue;
 } else {
 return loc__$1;

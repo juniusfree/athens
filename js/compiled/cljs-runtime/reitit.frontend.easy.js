@@ -24,8 +24,8 @@ return reitit.frontend.history.start_BANG_.cljs$core$IFn$_invoke$arity$3(router,
 }));
 });
 reitit.frontend.easy.href = (function reitit$frontend$easy$href(var_args){
-var G__61075 = arguments.length;
-switch (G__61075) {
+var G__61076 = arguments.length;
+switch (G__61076) {
 case 1:
 return reitit.frontend.easy.href.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
