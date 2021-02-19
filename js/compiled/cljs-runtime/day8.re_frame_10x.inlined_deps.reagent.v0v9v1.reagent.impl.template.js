@@ -68,10 +68,10 @@ day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.js_val_QMARK
 return (!(("object" === goog.typeOf(x))));
 });
 day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.kv_conv = (function day8$re_frame_10x$inlined_deps$reagent$v0v9v1$reagent$impl$template$kv_conv(o,k,v){
-var G__26629 = o;
-goog.object.set(G__26629,day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.cached_prop_name(k),(day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.convert_prop_value.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.convert_prop_value.cljs$core$IFn$_invoke$arity$1(v) : day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.convert_prop_value.call(null,v)));
+var G__26626 = o;
+goog.object.set(G__26626,day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.cached_prop_name(k),(day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.convert_prop_value.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.convert_prop_value.cljs$core$IFn$_invoke$arity$1(v) : day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.convert_prop_value.call(null,v)));
 
-return G__26629;
+return G__26626;
 });
 day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.convert_prop_value = (function day8$re_frame_10x$inlined_deps$reagent$v0v9v1$reagent$impl$template$convert_prop_value(x){
 if(day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.js_val_QMARK_(x)){
@@ -100,8 +100,8 @@ while (G__26654__i < G__26654__a.length) {G__26654__a[G__26654__i] = arguments[G
 } 
 return G__26653__delegate.call(this,args);};
 G__26653.cljs$lang$maxFixedArity = 0;
-G__26653.cljs$lang$applyTo = (function (arglist__26655){
-var args = cljs.core.seq(arglist__26655);
+G__26653.cljs$lang$applyTo = (function (arglist__26657){
+var args = cljs.core.seq(arglist__26657);
 return G__26653__delegate(args);
 });
 G__26653.cljs$core$IFn$_invoke$arity$variadic = G__26653__delegate;
@@ -446,10 +446,10 @@ return ({});
 }
 })();
 var first_child = ((1) + ((hasprops)?(1):(0)));
-var temp__5739__auto___26677 = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.key_from_vec(argv);
-if((temp__5739__auto___26677 == null)){
+var temp__5739__auto___26673 = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.key_from_vec(argv);
+if((temp__5739__auto___26673 == null)){
 } else {
-var key_26678 = temp__5739__auto___26677;
+var key_26678 = temp__5739__auto___26673;
 (jsprops.key = key_26678);
 }
 

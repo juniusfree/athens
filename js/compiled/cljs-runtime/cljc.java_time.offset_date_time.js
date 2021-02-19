@@ -154,8 +154,8 @@ cljc.java_time.offset_date_time.minus_months = (function cljc$java_time$offset_d
 return this4114.minusMonths(long4115);
 });
 cljc.java_time.offset_date_time.minus = (function cljc$java_time$offset_date_time$minus(var_args){
-var G__41816 = arguments.length;
-switch (G__41816) {
+var G__41817 = arguments.length;
+switch (G__41817) {
 case 2:
 return cljc.java_time.offset_date_time.minus.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 

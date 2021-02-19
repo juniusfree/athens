@@ -426,11 +426,11 @@ var c = reagent.impl.component.as_class(tag);
 var jsprops = ({});
 (jsprops.argv = v);
 
-var temp__5739__auto___31825 = reagent.impl.template.key_from_vec(v);
-if((temp__5739__auto___31825 == null)){
+var temp__5739__auto___31824 = reagent.impl.template.key_from_vec(v);
+if((temp__5739__auto___31824 == null)){
 } else {
-var key_31826 = temp__5739__auto___31825;
-(jsprops.key = key_31826);
+var key_31825 = temp__5739__auto___31824;
+(jsprops.key = key_31825);
 }
 
 return module$node_modules$react$index.createElement(c,jsprops);
@@ -446,10 +446,10 @@ return ({});
 }
 })();
 var first_child = ((1) + ((hasprops)?(1):(0)));
-var temp__5739__auto___31827 = reagent.impl.template.key_from_vec(argv);
-if((temp__5739__auto___31827 == null)){
+var temp__5739__auto___31826 = reagent.impl.template.key_from_vec(argv);
+if((temp__5739__auto___31826 == null)){
 } else {
-var key_31828 = temp__5739__auto___31827;
+var key_31828 = temp__5739__auto___31826;
 (jsprops.key = key_31828);
 }
 
@@ -487,11 +487,11 @@ if(reagent.impl.template.input_component_QMARK_(component)){
 var G__31796 = cljs.core.with_meta(new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [reagent.impl.template.reagent_input(),argv,component,jsprops,first_child], null),cljs.core.meta(argv));
 return (reagent.impl.template.as_element.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.template.as_element.cljs$core$IFn$_invoke$arity$1(G__31796) : reagent.impl.template.as_element.call(null,G__31796));
 } else {
-var temp__5739__auto___31850 = reagent.impl.template.get_key(cljs.core.meta(argv));
-if((temp__5739__auto___31850 == null)){
+var temp__5739__auto___31838 = reagent.impl.template.get_key(cljs.core.meta(argv));
+if((temp__5739__auto___31838 == null)){
 } else {
-var key_31851 = temp__5739__auto___31850;
-(jsprops.key = key_31851);
+var key_31840 = temp__5739__auto___31838;
+(jsprops.key = key_31840);
 }
 
 return (reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4 ? reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4(argv,component,jsprops,first_child) : reagent.impl.template.make_element.call(null,argv,component,jsprops,first_child));

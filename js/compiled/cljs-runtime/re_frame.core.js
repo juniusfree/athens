@@ -212,11 +212,11 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(re_frame.subs.reg_sub,cljs.
 (re_frame.core.reg_sub.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(re_frame.core.reg_sub.cljs$lang$applyTo = (function (seq33434){
-var G__33435 = cljs.core.first(seq33434);
-var seq33434__$1 = cljs.core.next(seq33434);
+(re_frame.core.reg_sub.cljs$lang$applyTo = (function (seq33424){
+var G__33425 = cljs.core.first(seq33424);
+var seq33424__$1 = cljs.core.next(seq33424);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__33435,seq33434__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__33425,seq33424__$1);
 }));
 
 /**
@@ -274,8 +274,8 @@ return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__33435,seq33434
  *   
  */
 re_frame.core.subscribe = (function re_frame$core$subscribe(var_args){
-var G__33447 = arguments.length;
-switch (G__33447) {
+var G__33433 = arguments.length;
+switch (G__33433) {
 case 1:
 return re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -312,8 +312,8 @@ return re_frame.subs.subscribe.cljs$core$IFn$_invoke$arity$2(query,dynv);
  *   NOTE: Depending on the usecase, it may be necessary to call `clear-subscription-cache!` afterwards
  */
 re_frame.core.clear_sub = (function re_frame$core$clear_sub(var_args){
-var G__33461 = arguments.length;
-switch (G__33461) {
+var G__33439 = arguments.length;
+switch (G__33439) {
 case 0:
 return re_frame.core.clear_sub.cljs$core$IFn$_invoke$arity$0();
 
@@ -397,8 +397,8 @@ return re_frame.fx.reg_fx(id,handler);
  *   
  */
 re_frame.core.clear_fx = (function re_frame$core$clear_fx(var_args){
-var G__33467 = arguments.length;
-switch (G__33467) {
+var G__33463 = arguments.length;
+switch (G__33463) {
 case 0:
 return re_frame.core.clear_fx.cljs$core$IFn$_invoke$arity$0();
 
@@ -638,8 +638,8 @@ return re_frame.events.register(id,new cljs.core.PersistentVector(null, 5, 5, cl
  *   
  */
 re_frame.core.reg_event_fx = (function re_frame$core$reg_event_fx(var_args){
-var G__33480 = arguments.length;
-switch (G__33480) {
+var G__33475 = arguments.length;
+switch (G__33475) {
 case 2:
 return re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -675,8 +675,8 @@ return re_frame.events.register(id,new cljs.core.PersistentVector(null, 5, 5, cl
  *   
  */
 re_frame.core.reg_event_ctx = (function re_frame$core$reg_event_ctx(var_args){
-var G__33482 = arguments.length;
-switch (G__33482) {
+var G__33481 = arguments.length;
+switch (G__33481) {
 case 2:
 return re_frame.core.reg_event_ctx.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -711,8 +711,8 @@ return re_frame.events.register(id,new cljs.core.PersistentVector(null, 5, 5, cl
  *   console if it finds no matching registration.
  */
 re_frame.core.clear_event = (function re_frame$core$clear_event(var_args){
-var G__33498 = arguments.length;
-switch (G__33498) {
+var G__33484 = arguments.length;
+switch (G__33484) {
 case 0:
 return re_frame.core.clear_event.cljs$core$IFn$_invoke$arity$0();
 
@@ -823,9 +823,9 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(re_frame.std_interceptors.p
 (re_frame.core.path.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(re_frame.core.path.cljs$lang$applyTo = (function (seq33509){
+(re_frame.core.path.cljs$lang$applyTo = (function (seq33485){
 var self__4724__auto__ = this;
-return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq33509));
+return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq33485));
 }));
 
 /**
@@ -997,8 +997,8 @@ return re_frame.settings.reg_global_interceptor(interceptor);
  *   console if it finds no matching registration.
  */
 re_frame.core.clear_global_interceptor = (function re_frame$core$clear_global_interceptor(var_args){
-var G__33544 = arguments.length;
-switch (G__33544) {
+var G__33528 = arguments.length;
+switch (G__33528) {
 case 0:
 return re_frame.core.clear_global_interceptor.cljs$core$IFn$_invoke$arity$0();
 
@@ -1077,22 +1077,22 @@ var argseq__4743__auto__ = ((((0) < args__4742__auto__.length))?(new cljs.core.I
 return re_frame.core.__GT_interceptor.cljs$core$IFn$_invoke$arity$variadic(argseq__4743__auto__);
 });
 
-(re_frame.core.__GT_interceptor.cljs$core$IFn$_invoke$arity$variadic = (function (p__33564){
-var map__33565 = p__33564;
-var map__33565__$1 = (((((!((map__33565 == null))))?(((((map__33565.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33565.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__33565):map__33565);
-var m = map__33565__$1;
-var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33565__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
-var before = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33565__$1,new cljs.core.Keyword(null,"before","before",-1633692388));
-var after = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33565__$1,new cljs.core.Keyword(null,"after","after",594996914));
+(re_frame.core.__GT_interceptor.cljs$core$IFn$_invoke$arity$variadic = (function (p__33546){
+var map__33547 = p__33546;
+var map__33547__$1 = (((((!((map__33547 == null))))?(((((map__33547.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33547.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__33547):map__33547);
+var m = map__33547__$1;
+var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33547__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
+var before = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33547__$1,new cljs.core.Keyword(null,"before","before",-1633692388));
+var after = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33547__$1,new cljs.core.Keyword(null,"after","after",594996914));
 return re_frame.utils.apply_kw.cljs$core$IFn$_invoke$arity$variadic(re_frame.interceptor.__GT_interceptor,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([m], 0));
 }));
 
 (re_frame.core.__GT_interceptor.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(re_frame.core.__GT_interceptor.cljs$lang$applyTo = (function (seq33557){
+(re_frame.core.__GT_interceptor.cljs$lang$applyTo = (function (seq33537){
 var self__4724__auto__ = this;
-return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq33557));
+return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq33537));
 }));
 
 /**
@@ -1105,8 +1105,8 @@ return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
  * `nil` if `key` is not present.
  */
 re_frame.core.get_coeffect = (function re_frame$core$get_coeffect(var_args){
-var G__33576 = arguments.length;
-switch (G__33576) {
+var G__33566 = arguments.length;
+switch (G__33566) {
 case 1:
 return re_frame.core.get_coeffect.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1157,8 +1157,8 @@ return re_frame.interceptor.assoc_coeffect(context,key,value);
  * `nil` if `key` is not present.
  */
 re_frame.core.get_effect = (function re_frame$core$get_effect(var_args){
-var G__33598 = arguments.length;
-switch (G__33598) {
+var G__33582 = arguments.length;
+switch (G__33582) {
 case 1:
 return re_frame.core.get_effect.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1278,11 +1278,11 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(re_frame.loggers.console,cl
 (re_frame.core.console.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(re_frame.core.console.cljs$lang$applyTo = (function (seq33619){
-var G__33622 = cljs.core.first(seq33619);
-var seq33619__$1 = cljs.core.next(seq33619);
+(re_frame.core.console.cljs$lang$applyTo = (function (seq33607){
+var G__33608 = cljs.core.first(seq33607);
+var seq33607__$1 = cljs.core.next(seq33607);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__33622,seq33619__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__33608,seq33607__$1);
 }));
 
 /**
