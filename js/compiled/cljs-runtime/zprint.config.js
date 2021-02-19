@@ -102,13 +102,13 @@ return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"fr
 zprint.config.merge_deep_doc = (function zprint$config$merge_deep_doc(var_args){
 var args__4742__auto__ = [];
 var len__4736__auto___30331 = arguments.length;
-var i__4737__auto___30332 = (0);
+var i__4737__auto___30333 = (0);
 while(true){
-if((i__4737__auto___30332 < len__4736__auto___30331)){
-args__4742__auto__.push((arguments[i__4737__auto___30332]));
+if((i__4737__auto___30333 < len__4736__auto___30331)){
+args__4742__auto__.push((arguments[i__4737__auto___30333]));
 
-var G__30333 = (i__4737__auto___30332 + (1));
-i__4737__auto___30332 = G__30333;
+var G__30335 = (i__4737__auto___30333 + (1));
+i__4737__auto___30333 = G__30335;
 continue;
 } else {
 }
