@@ -273,10 +273,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.dissoc.cljs$core$
 /**
  * Select the elements from start to end from a vector.
  */
-zprint.core.range_vec = (function zprint$core$range_vec(v,p__31246){
-var vec__31247 = p__31246;
-var start = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31247,(0),null);
-var end = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31247,(1),null);
+zprint.core.range_vec = (function zprint$core$range_vec(v,p__31244){
+var vec__31245 = p__31244;
+var start = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31245,(0),null);
+var end = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31245,(1),null);
 return cljs.core.take.cljs$core$IFn$_invoke$arity$2((end - start),cljs.core.drop.cljs$core$IFn$_invoke$arity$2(start,v));
 });
 /**
@@ -406,14 +406,14 @@ throw (new Error(["No definition found for a function named: ",cljs.core.str.clj
  */
 zprint.core.zprint_str = (function zprint$core$zprint_str(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___31305 = arguments.length;
-var i__4737__auto___31306 = (0);
+var len__4736__auto___31303 = arguments.length;
+var i__4737__auto___31305 = (0);
 while(true){
-if((i__4737__auto___31306 < len__4736__auto___31305)){
-args__4742__auto__.push((arguments[i__4737__auto___31306]));
+if((i__4737__auto___31305 < len__4736__auto___31303)){
+args__4742__auto__.push((arguments[i__4737__auto___31305]));
 
-var G__31307 = (i__4737__auto___31306 + (1));
-i__4737__auto___31306 = G__31307;
+var G__31307 = (i__4737__auto___31305 + (1));
+i__4737__auto___31305 = G__31307;
 continue;
 } else {
 }

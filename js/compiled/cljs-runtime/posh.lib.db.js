@@ -1,8 +1,8 @@
 goog.provide('posh.lib.db');
 posh.lib.db.get_parent_db = (function posh$lib$db$get_parent_db(poshdb){
-var G__35595 = cljs.core.first(poshdb);
-var G__35595__$1 = (((G__35595 instanceof cljs.core.Keyword))?G__35595.fqn:null);
-switch (G__35595__$1) {
+var G__35599 = cljs.core.first(poshdb);
+var G__35599__$1 = (((G__35599 instanceof cljs.core.Keyword))?G__35599.fqn:null);
+switch (G__35599__$1) {
 case "db":
 return null;
 
@@ -20,7 +20,7 @@ return cljs.core.first(cljs.core.nth.cljs$core$IFn$_invoke$arity$2(poshdb,(2)));
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__35595__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__35599__$1)].join('')));
 
 }
 });

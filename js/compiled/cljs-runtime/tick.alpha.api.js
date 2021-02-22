@@ -902,12 +902,12 @@ return tick.core._GT__EQ_(x,y);
 while(true){
 if(cljs.core.truth_(tick.core._GT__EQ_(x,y))){
 if(cljs.core.next(more)){
-var G__46433 = y;
-var G__46434 = cljs.core.first(more);
-var G__46435 = cljs.core.next(more);
-x = G__46433;
-y = G__46434;
-more = G__46435;
+var G__46432 = y;
+var G__46433 = cljs.core.first(more);
+var G__46434 = cljs.core.next(more);
+x = G__46432;
+y = G__46433;
+more = G__46434;
 continue;
 } else {
 return tick.core._GT__EQ_(y,cljs.core.first(more));

@@ -168,11 +168,11 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(stylefy.impl.styles.sub_sty
 (stylefy.core.sub_style.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(stylefy.core.sub_style.cljs$lang$applyTo = (function (seq55477){
-var G__55478 = cljs.core.first(seq55477);
-var seq55477__$1 = cljs.core.next(seq55477);
+(stylefy.core.sub_style.cljs$lang$applyTo = (function (seq55478){
+var G__55479 = cljs.core.first(seq55478);
+var seq55478__$1 = cljs.core.next(seq55478);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__55478,seq55477__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__55479,seq55478__$1);
 }));
 
 /**

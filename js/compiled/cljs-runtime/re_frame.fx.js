@@ -38,11 +38,11 @@ var _STAR_current_trace_STAR__temp_val__32444 = re_frame.trace.start_trace(new c
 
 try{try{var effects = new cljs.core.Keyword(null,"effects","effects",-282369292).cljs$core$IFn$_invoke$arity$1(context);
 var effects_without_db = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(effects,new cljs.core.Keyword(null,"db","db",993250759));
-var temp__5735__auto___32518 = new cljs.core.Keyword(null,"db","db",993250759).cljs$core$IFn$_invoke$arity$1(effects);
-if(cljs.core.truth_(temp__5735__auto___32518)){
-var new_db_32519 = temp__5735__auto___32518;
-var fexpr__32445_32520 = re_frame.registrar.get_handler.cljs$core$IFn$_invoke$arity$3(re_frame.fx.kind,new cljs.core.Keyword(null,"db","db",993250759),false);
-(fexpr__32445_32520.cljs$core$IFn$_invoke$arity$1 ? fexpr__32445_32520.cljs$core$IFn$_invoke$arity$1(new_db_32519) : fexpr__32445_32520.call(null,new_db_32519));
+var temp__5735__auto___32522 = new cljs.core.Keyword(null,"db","db",993250759).cljs$core$IFn$_invoke$arity$1(effects);
+if(cljs.core.truth_(temp__5735__auto___32522)){
+var new_db_32523 = temp__5735__auto___32522;
+var fexpr__32445_32524 = re_frame.registrar.get_handler.cljs$core$IFn$_invoke$arity$3(re_frame.fx.kind,new cljs.core.Keyword(null,"db","db",993250759),false);
+(fexpr__32445_32524.cljs$core$IFn$_invoke$arity$1 ? fexpr__32445_32524.cljs$core$IFn$_invoke$arity$1(new_db_32523) : fexpr__32445_32524.call(null,new_db_32523));
 } else {
 }
 
@@ -64,14 +64,14 @@ re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyw
 }
 
 
-var G__32527 = seq__32446;
-var G__32528 = chunk__32447;
-var G__32529 = count__32448;
-var G__32530 = (i__32449 + (1));
-seq__32446 = G__32527;
-chunk__32447 = G__32528;
-count__32448 = G__32529;
-i__32449 = G__32530;
+var G__32530 = seq__32446;
+var G__32531 = chunk__32447;
+var G__32532 = count__32448;
+var G__32533 = (i__32449 + (1));
+seq__32446 = G__32530;
+chunk__32447 = G__32531;
+count__32448 = G__32532;
+i__32449 = G__32533;
 continue;
 } else {
 var temp__5735__auto__ = cljs.core.seq(seq__32446);
