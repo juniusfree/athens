@@ -90,10 +90,10 @@ while(true){
 if((node__$1 == null)){
 return cljs.core.reverse(nodes);
 } else {
-var G__46450 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(nodes,node__$1);
-var G__46451 = node__$1.parentNode;
-nodes = G__46450;
-node__$1 = G__46451;
+var G__46440 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(nodes,node__$1);
+var G__46441 = node__$1.parentNode;
+nodes = G__46440;
+node__$1 = G__46441;
 continue;
 }
 break;
@@ -114,8 +114,8 @@ return cljs.core.nth.cljs$core$IFn$_invoke$arity$2(p1,(i - (1)));
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(i,n)){
 return (new Error("No common ancestor after n loops!"));
 } else {
-var G__46453 = (i + (1));
-i = G__46453;
+var G__46445 = (i + (1));
+i = G__46445;
 continue;
 
 }
@@ -142,8 +142,8 @@ return (new Date()).getTime();
  * Returns today's date or a date OFFSET days before today
  */
 athens.util.get_day = (function athens$util$get_day(var_args){
-var G__46401 = arguments.length;
-switch (G__46401) {
+var G__46397 = arguments.length;
+switch (G__46397) {
 case 0:
 return athens.util.get_day.cljs$core$IFn$_invoke$arity$0();
 
@@ -190,17 +190,17 @@ return clojure.string.replace(x__$3,/PM/,"pm");
 }
 });
 athens.util.uid_to_date = (function athens$util$uid_to_date(uid){
-try{var vec__46410 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(uid,"-");
-var m = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46410,(0),null);
-var d = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46410,(1),null);
-var y = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46410,(2),null);
+try{var vec__46403 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(uid,"-");
+var m = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46403,(0),null);
+var d = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46403,(1),null);
+var y = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46403,(2),null);
 var rejoin = clojure.string.join.cljs$core$IFn$_invoke$arity$2("-",new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [y,m,d], null));
 return tick.alpha.api.date.cljs$core$IFn$_invoke$arity$1(rejoin);
-}catch (e46406){if((e46406 instanceof Object)){
-var _ = e46406;
+}catch (e46402){if((e46402 instanceof Object)){
+var _ = e46402;
 return null;
 } else {
-throw e46406;
+throw e46402;
 
 }
 }});
@@ -208,8 +208,8 @@ athens.util.is_timeline_page = (function athens$util$is_timeline_page(uid){
 return cljs.core.boolean$(athens.util.uid_to_date(uid));
 });
 athens.util.regex_esc_char_map = (function (){var esc_chars = "()*&^%$#![]";
-return cljs.core.zipmap(esc_chars,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__46416_SHARP_){
-return ["\\",cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__46416_SHARP_)].join('');
+return cljs.core.zipmap(esc_chars,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__46406_SHARP_){
+return ["\\",cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__46406_SHARP_)].join('');
 }),esc_chars));
 })();
 /**
