@@ -548,8 +548,8 @@ cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new clj
 
 return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("editing","uid","editing/uid",974963040),null], null));
 });
-athens.keybindings.throttle_dispatch = goog.functions.throttle((function (p1__61238_SHARP_){
-return re_frame.core.dispatch(p1__61238_SHARP_);
+athens.keybindings.throttle_dispatch = goog.functions.throttle((function (p1__61236_SHARP_){
+return re_frame.core.dispatch(p1__61236_SHARP_);
 }),(100));
 athens.keybindings.handle_enter = (function athens$keybindings$handle_enter(e,uid,state){
 var map__61239 = athens.keybindings.destruct_key_down(e);

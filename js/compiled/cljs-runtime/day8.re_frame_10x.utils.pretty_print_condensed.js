@@ -58,9 +58,9 @@ return day8.re_frame_10x.utils.pretty_print_condensed.truncate_string.cljs$core$
 (day8.re_frame_10x.utils.pretty_print_condensed.truncate_string.cljs$core$IFn$_invoke$arity$3 = (function (n,cut_from,string){
 var c = cljs.core.count(string);
 if((c > n)){
-var G__31339 = cut_from;
-var G__31339__$1 = (((G__31339 instanceof cljs.core.Keyword))?G__31339.fqn:null);
-switch (G__31339__$1) {
+var G__31343 = cut_from;
+var G__31343__$1 = (((G__31343 instanceof cljs.core.Keyword))?G__31343.fqn:null);
+switch (G__31343__$1) {
 case "start":
 return ["\u2026",cljs.core.subs.cljs$core$IFn$_invoke$arity$3(string,(c - (n - (1))),c)].join('');
 
@@ -70,8 +70,8 @@ return [cljs.core.subs.cljs$core$IFn$_invoke$arity$3(string,(0),(n - (1))),"\u20
 
 break;
 case "middle":
-var G__31340 = n;
-switch (G__31340) {
+var G__31344 = n;
+switch (G__31344) {
 case (1):
 return "\u2026";
 
@@ -87,11 +87,11 @@ break;
 default:
 var content_budget = (n - (2));
 var per_side_budget = Math.floor((content_budget / (2)));
-return [cljs.core.subs.cljs$core$IFn$_invoke$arity$3(string,(0),(function (){var G__31342 = per_side_budget;
+return [cljs.core.subs.cljs$core$IFn$_invoke$arity$3(string,(0),(function (){var G__31346 = per_side_budget;
 if(cljs.core.even_QMARK_(content_budget)){
-return (G__31342 - (1));
+return (G__31346 - (1));
 } else {
-return G__31342;
+return G__31346;
 }
 })()),"...",cljs.core.subs.cljs$core$IFn$_invoke$arity$3(string,(c - per_side_budget),c)].join('');
 
@@ -99,7 +99,7 @@ return G__31342;
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__31339__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__31343__$1)].join('')));
 
 }
 } else {

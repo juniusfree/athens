@@ -188,9 +188,9 @@ var b__59389 = cljs.core.chunk_buffer(size__4528__auto__);
 if((function (){var i__59388 = (0);
 while(true){
 if((i__59388 < size__4528__auto__)){
-var vec__59391 = cljs.core._nth(c__4527__auto__,i__59388);
-var status = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59391,(0),null);
-var response = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59391,(1),null);
+var vec__59390 = cljs.core._nth(c__4527__auto__,i__59388);
+var status = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59390,(0),null);
+var response = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59390,(1),null);
 cljs.core.chunk_append(b__59389,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,(function (){var $ = response;
 var $__$1 = (cljs.core.truth_(new cljs.core.Keyword(null,"schema","schema",-1582001791).cljs$core$IFn$_invoke$arity$1($))?cljs.core.update.cljs$core$IFn$_invoke$arity$4($,new cljs.core.Keyword(null,"schema","schema",-1582001791),spec_tools.swagger.core.transform,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"schema","schema",-1582001791)], null)):$);
 return cljs.core.update.cljs$core$IFn$_invoke$arity$3($__$1,new cljs.core.Keyword(null,"description","description",-1428560544),cljs.core.fnil.cljs$core$IFn$_invoke$arity$2(cljs.core.identity,""));
@@ -210,9 +210,9 @@ return cljs.core.chunk_cons(cljs.core.chunk(b__59389),spec_tools$swagger$core$it
 return cljs.core.chunk_cons(cljs.core.chunk(b__59389),null);
 }
 } else {
-var vec__59394 = cljs.core.first(s__59387__$2);
-var status = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59394,(0),null);
-var response = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59394,(1),null);
+var vec__59393 = cljs.core.first(s__59387__$2);
+var status = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59393,(0),null);
+var response = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59393,(1),null);
 return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,(function (){var $ = response;
 var $__$1 = (cljs.core.truth_(new cljs.core.Keyword(null,"schema","schema",-1582001791).cljs$core$IFn$_invoke$arity$1($))?cljs.core.update.cljs$core$IFn$_invoke$arity$4($,new cljs.core.Keyword(null,"schema","schema",-1582001791),spec_tools.swagger.core.transform,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"schema","schema",-1582001791)], null)):$);
 return cljs.core.update.cljs$core$IFn$_invoke$arity$3($__$1,new cljs.core.Keyword(null,"description","description",-1428560544),cljs.core.fnil.cljs$core$IFn$_invoke$arity$2(cljs.core.identity,""));

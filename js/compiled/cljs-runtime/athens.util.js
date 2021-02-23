@@ -90,10 +90,10 @@ while(true){
 if((node__$1 == null)){
 return cljs.core.reverse(nodes);
 } else {
-var G__46440 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(nodes,node__$1);
-var G__46441 = node__$1.parentNode;
-nodes = G__46440;
-node__$1 = G__46441;
+var G__46437 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(nodes,node__$1);
+var G__46438 = node__$1.parentNode;
+nodes = G__46437;
+node__$1 = G__46438;
 continue;
 }
 break;
@@ -114,8 +114,8 @@ return cljs.core.nth.cljs$core$IFn$_invoke$arity$2(p1,(i - (1)));
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(i,n)){
 return (new Error("No common ancestor after n loops!"));
 } else {
-var G__46445 = (i + (1));
-i = G__46445;
+var G__46441 = (i + (1));
+i = G__46441;
 continue;
 
 }

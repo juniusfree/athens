@@ -94,14 +94,14 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(x,args);
 var G__26653 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__26656__i = 0, G__26656__a = new Array(arguments.length -  0);
-while (G__26656__i < G__26656__a.length) {G__26656__a[G__26656__i] = arguments[G__26656__i + 0]; ++G__26656__i;}
-  args = new cljs.core.IndexedSeq(G__26656__a,0,null);
+var G__26654__i = 0, G__26654__a = new Array(arguments.length -  0);
+while (G__26654__i < G__26654__a.length) {G__26654__a[G__26654__i] = arguments[G__26654__i + 0]; ++G__26654__i;}
+  args = new cljs.core.IndexedSeq(G__26654__a,0,null);
 } 
 return G__26653__delegate.call(this,args);};
 G__26653.cljs$lang$maxFixedArity = 0;
-G__26653.cljs$lang$applyTo = (function (arglist__26657){
-var args = cljs.core.seq(arglist__26657);
+G__26653.cljs$lang$applyTo = (function (arglist__26655){
+var args = cljs.core.seq(arglist__26655);
 return G__26653__delegate(args);
 });
 G__26653.cljs$core$IFn$_invoke$arity$variadic = G__26653__delegate;
@@ -426,11 +426,11 @@ var c = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.component.as_
 var jsprops = ({});
 (jsprops.argv = v);
 
-var temp__5739__auto___26681 = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.key_from_vec(v);
-if((temp__5739__auto___26681 == null)){
+var temp__5739__auto___26687 = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.key_from_vec(v);
+if((temp__5739__auto___26687 == null)){
 } else {
-var key_26683 = temp__5739__auto___26681;
-(jsprops.key = key_26683);
+var key_26688 = temp__5739__auto___26687;
+(jsprops.key = key_26688);
 }
 
 return module$node_modules$react$index.createElement(c,jsprops);

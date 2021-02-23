@@ -69,9 +69,9 @@ stylefy.core.tag("html",athens.style.base_styles);
 
 stylefy.core.tag("*",new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"box-sizing","box-sizing",-1956090239),"border-box"], null));
 
-var permute_light_61236 = athens.style.permute_color_opacities(athens.style.THEME_LIGHT);
-var permute_dark_61237 = athens.style.permute_color_opacities(athens.style.THEME_DARK);
-stylefy.core.tag(":root",cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([permute_light_61236,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword("stylefy.core","media","stylefy.core/media",-1323617834),cljs.core.PersistentArrayMap.createAsIfByAssoc([new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"prefers-color-scheme","prefers-color-scheme",-1885369990),"dark"], null),permute_dark_61237])], null)], 0)));
+var permute_light_61237 = athens.style.permute_color_opacities(athens.style.THEME_LIGHT);
+var permute_dark_61238 = athens.style.permute_color_opacities(athens.style.THEME_DARK);
+stylefy.core.tag(":root",cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([permute_light_61237,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword("stylefy.core","media","stylefy.core/media",-1323617834),cljs.core.PersistentArrayMap.createAsIfByAssoc([new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"prefers-color-scheme","prefers-color-scheme",-1885369990),"dark"], null),permute_dark_61238])], null)], 0)));
 
 return athens.util.hide_10x();
 });

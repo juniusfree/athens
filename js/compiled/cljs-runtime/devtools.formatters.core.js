@@ -25,7 +25,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.format.IDevtoolsFormat,value);
 }
-}catch (e23860){var _e__20576__auto__ = e23860;
+}catch (e23863){var _e__20643__auto__ = e23863;
 return false;
 }})())?devtools.format._header(value):(cljs.core.truth_((function (){try{if((!((value == null)))){
 if(((false) || ((cljs.core.PROTOCOL_SENTINEL === value.devtools$protocols$IFormat$)))){
@@ -40,7 +40,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.protocols.IFormat,value);
 }
-}catch (e23862){var _e__20576__auto__ = e23862;
+}catch (e23865){var _e__20643__auto__ = e23865;
 return false;
 }})())?devtools.protocols._header(value):devtools.formatters.templating.render_markup(devtools.formatters.markup._LT_header_GT_(value))
 )));
@@ -63,7 +63,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.format.IDevtoolsFormat,value);
 }
-}catch (e23867){var _e__20576__auto__ = e23867;
+}catch (e23867){var _e__20643__auto__ = e23867;
 return false;
 }})())?devtools.format._has_body(value):(cljs.core.truth_((function (){try{if((!((value == null)))){
 if(((false) || ((cljs.core.PROTOCOL_SENTINEL === value.devtools$protocols$IFormat$)))){
@@ -78,7 +78,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.protocols.IFormat,value);
 }
-}catch (e23869){var _e__20576__auto__ = e23869;
+}catch (e23869){var _e__20643__auto__ = e23869;
 return false;
 }})())?devtools.protocols._has_body(value):false
 ))));
@@ -103,7 +103,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.format.IDevtoolsFormat,value);
 }
-}catch (e23871){var _e__20576__auto__ = e23871;
+}catch (e23874){var _e__20643__auto__ = e23874;
 return false;
 }})())){
 return devtools.format._body(value);
@@ -121,7 +121,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.protocols.IFormat,value);
 }
-}catch (e23875){var _e__20576__auto__ = e23875;
+}catch (e23876){var _e__20643__auto__ = e23876;
 return false;
 }})())){
 return devtools.protocols._body(value);
@@ -155,7 +155,7 @@ devtools.formatters.core.wrap_with_exception_guard = (function devtools$formatte
 return (function() { 
 var G__23887__delegate = function (args){
 try{return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(f,args);
-}catch (e23880){var e = e23880;
+}catch (e23883){var e = e23883;
 devtools.reporter.report_internal_error_BANG_.cljs$core$IFn$_invoke$arity$variadic(e,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["an exception was raised during value formatting"], 0));
 
 return null;

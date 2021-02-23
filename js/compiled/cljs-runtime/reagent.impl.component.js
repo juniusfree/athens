@@ -192,12 +192,12 @@ break;
 }
 });
 reagent.impl.component.component_name = (function reagent$impl$component$component_name(c){
-var G__31690 = c;
-var G__31690__$1 = (((G__31690 == null))?null:G__31690.constructor);
-if((G__31690__$1 == null)){
+var G__31692 = c;
+var G__31692__$1 = (((G__31692 == null))?null:G__31692.constructor);
+if((G__31692__$1 == null)){
 return null;
 } else {
-return G__31690__$1.displayName;
+return G__31692__$1.displayName;
 }
 });
 reagent.impl.component.comp_name = (function reagent$impl$component$comp_name(){
@@ -489,10 +489,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(fmap__$1,new cljs.co
 });
 reagent.impl.component.map_to_js = (function reagent$impl$component$map_to_js(m){
 return cljs.core.reduce_kv((function (o,k,v){
-var G__31717 = o;
-goog.object.set(G__31717,cljs.core.name(k),v);
+var G__31708 = o;
+goog.object.set(G__31708,cljs.core.name(k),v);
 
-return G__31717;
+return G__31708;
 }),({}),m);
 });
 reagent.impl.component.cljsify = (function reagent$impl$component$cljsify(body){

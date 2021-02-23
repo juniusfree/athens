@@ -902,12 +902,12 @@ return tick.core._GT__EQ_(x,y);
 while(true){
 if(cljs.core.truth_(tick.core._GT__EQ_(x,y))){
 if(cljs.core.next(more)){
-var G__46432 = y;
-var G__46433 = cljs.core.first(more);
-var G__46434 = cljs.core.next(more);
-x = G__46432;
-y = G__46433;
-more = G__46434;
+var G__46433 = y;
+var G__46434 = cljs.core.first(more);
+var G__46435 = cljs.core.next(more);
+x = G__46433;
+y = G__46434;
+more = G__46435;
 continue;
 } else {
 return tick.core._GT__EQ_(y,cljs.core.first(more));
@@ -969,14 +969,14 @@ return tick.interval.new_interval(x,y);
 });
 tick.alpha.api.extend = (function tick$alpha$api$extend(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___46437 = arguments.length;
-var i__4737__auto___46438 = (0);
+var len__4736__auto___46439 = arguments.length;
+var i__4737__auto___46440 = (0);
 while(true){
-if((i__4737__auto___46438 < len__4736__auto___46437)){
-args__4742__auto__.push((arguments[i__4737__auto___46438]));
+if((i__4737__auto___46440 < len__4736__auto___46439)){
+args__4742__auto__.push((arguments[i__4737__auto___46440]));
 
-var G__46439 = (i__4737__auto___46438 + (1));
-i__4737__auto___46438 = G__46439;
+var G__46442 = (i__4737__auto___46440 + (1));
+i__4737__auto___46440 = G__46442;
 continue;
 } else {
 }
@@ -1003,14 +1003,14 @@ return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__46364,seq46363
 
 tick.alpha.api.scale = (function tick$alpha$api$scale(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___46442 = arguments.length;
-var i__4737__auto___46443 = (0);
+var len__4736__auto___46443 = arguments.length;
+var i__4737__auto___46444 = (0);
 while(true){
-if((i__4737__auto___46443 < len__4736__auto___46442)){
-args__4742__auto__.push((arguments[i__4737__auto___46443]));
+if((i__4737__auto___46444 < len__4736__auto___46443)){
+args__4742__auto__.push((arguments[i__4737__auto___46444]));
 
-var G__46444 = (i__4737__auto___46443 + (1));
-i__4737__auto___46443 = G__46444;
+var G__46446 = (i__4737__auto___46444 + (1));
+i__4737__auto___46444 = G__46446;
 continue;
 } else {
 }
