@@ -169,10 +169,10 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(stylefy.impl.styles.sub_sty
 
 /** @this {Function} */
 (stylefy.core.sub_style.cljs$lang$applyTo = (function (seq55468){
-var G__55470 = cljs.core.first(seq55468);
+var G__55469 = cljs.core.first(seq55468);
 var seq55468__$1 = cljs.core.next(seq55468);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__55470,seq55468__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__55469,seq55468__$1);
 }));
 
 /**

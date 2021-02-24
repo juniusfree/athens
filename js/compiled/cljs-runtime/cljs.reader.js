@@ -231,9 +231,9 @@ var count__24701_24765 = (0);
 var i__24702_24766 = (0);
 while(true){
 if((i__24702_24766 < count__24701_24765)){
-var vec__24712_24767 = chunk__24700_24764.cljs$core$IIndexed$_nth$arity$2(null,i__24702_24766);
-var k_24768 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24712_24767,(0),null);
-var v_24769 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24712_24767,(1),null);
+var vec__24709_24767 = chunk__24700_24764.cljs$core$IIndexed$_nth$arity$2(null,i__24702_24766);
+var k_24768 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24709_24767,(0),null);
+var v_24769 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24709_24767,(1),null);
 goog.object.set(obj,cljs.core.name(k_24768),v_24769);
 
 
@@ -319,8 +319,8 @@ cljs.reader._STAR_tag_table_STAR_ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1
  *            be called with the tag and the value.
  */
 cljs.reader.read = (function cljs$reader$read(var_args){
-var G__24724 = arguments.length;
-switch (G__24724) {
+var G__24719 = arguments.length;
+switch (G__24719) {
 case 1:
 return cljs.reader.read.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

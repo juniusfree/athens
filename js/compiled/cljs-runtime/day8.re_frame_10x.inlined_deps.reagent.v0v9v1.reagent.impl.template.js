@@ -100,8 +100,8 @@ while (G__26654__i < G__26654__a.length) {G__26654__a[G__26654__i] = arguments[G
 } 
 return G__26653__delegate.call(this,args);};
 G__26653.cljs$lang$maxFixedArity = 0;
-G__26653.cljs$lang$applyTo = (function (arglist__26655){
-var args = cljs.core.seq(arglist__26655);
+G__26653.cljs$lang$applyTo = (function (arglist__26657){
+var args = cljs.core.seq(arglist__26657);
 return G__26653__delegate(args);
 });
 G__26653.cljs$core$IFn$_invoke$arity$variadic = G__26653__delegate;
@@ -426,11 +426,11 @@ var c = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.component.as_
 var jsprops = ({});
 (jsprops.argv = v);
 
-var temp__5739__auto___26687 = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.key_from_vec(v);
-if((temp__5739__auto___26687 == null)){
+var temp__5739__auto___26671 = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.key_from_vec(v);
+if((temp__5739__auto___26671 == null)){
 } else {
-var key_26688 = temp__5739__auto___26687;
-(jsprops.key = key_26688);
+var key_26672 = temp__5739__auto___26671;
+(jsprops.key = key_26672);
 }
 
 return module$node_modules$react$index.createElement(c,jsprops);
@@ -446,11 +446,11 @@ return ({});
 }
 })();
 var first_child = ((1) + ((hasprops)?(1):(0)));
-var temp__5739__auto___26694 = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.key_from_vec(argv);
-if((temp__5739__auto___26694 == null)){
+var temp__5739__auto___26673 = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.key_from_vec(argv);
+if((temp__5739__auto___26673 == null)){
 } else {
-var key_26695 = temp__5739__auto___26694;
-(jsprops.key = key_26695);
+var key_26674 = temp__5739__auto___26673;
+(jsprops.key = key_26674);
 }
 
 return (day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4 ? day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4(argv,module$node_modules$react$index.Fragment,jsprops,first_child) : day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.make_element.call(null,argv,module$node_modules$react$index.Fragment,jsprops,first_child));

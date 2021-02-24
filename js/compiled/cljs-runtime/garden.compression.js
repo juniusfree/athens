@@ -3,8 +3,8 @@ goog.provide('garden.compression');
  * Return a function which when given a string will return a map
  *   containing the chunk of text matched by re, it's size, and tag.
  */
-garden.compression.token_fn = (function garden$compression$token_fn(p__53244){
-var vec__53246 = p__53244;
+garden.compression.token_fn = (function garden$compression$token_fn(p__53245){
+var vec__53246 = p__53245;
 var tag = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__53246,(0),null);
 var re = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__53246,(1),null);
 return (function (s){
@@ -55,9 +55,9 @@ return (p1__53250_SHARP_.cljs$core$IFn$_invoke$arity$1 ? p1__53250_SHARP_.cljs$c
 (garden.compression.tokenizer.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(garden.compression.tokenizer.cljs$lang$applyTo = (function (seq53251){
+(garden.compression.tokenizer.cljs$lang$applyTo = (function (seq53255){
 var self__4724__auto__ = this;
-return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq53251));
+return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq53255));
 }));
 
 /**

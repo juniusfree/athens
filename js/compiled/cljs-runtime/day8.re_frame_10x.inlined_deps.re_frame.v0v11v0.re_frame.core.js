@@ -294,11 +294,11 @@ return day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.register_ha
 });
 
 (day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.register_handler.cljs$core$IFn$_invoke$arity$variadic = (function (args){
-var G__27890_27932 = new cljs.core.Keyword(null,"warn","warn",-436710552);
-var G__27891_27933 = "re-frame:  \"register-handler\" has been renamed \"reg-event-db\" (look for registration of";
-var G__27892_27934 = cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.first(args));
-var G__27893_27935 = ")";
-(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.console.cljs$core$IFn$_invoke$arity$4 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.console.cljs$core$IFn$_invoke$arity$4(G__27890_27932,G__27891_27933,G__27892_27934,G__27893_27935) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.console.call(null,G__27890_27932,G__27891_27933,G__27892_27934,G__27893_27935));
+var G__27893_27932 = new cljs.core.Keyword(null,"warn","warn",-436710552);
+var G__27894_27933 = "re-frame:  \"register-handler\" has been renamed \"reg-event-db\" (look for registration of";
+var G__27895_27934 = cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.first(args));
+var G__27896_27935 = ")";
+(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.console.cljs$core$IFn$_invoke$arity$4 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.console.cljs$core$IFn$_invoke$arity$4(G__27893_27932,G__27894_27933,G__27895_27934,G__27896_27935) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.console.call(null,G__27893_27932,G__27894_27933,G__27895_27934,G__27896_27935));
 
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_db,args);
 }));
