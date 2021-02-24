@@ -67,8 +67,8 @@ var breadcrumb_uid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__62101__$1,
 var title = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__62101__$1,new cljs.core.Keyword("node","title","node/title",628940777));
 var string__$1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__62101__$1,new cljs.core.Keyword("block","string","block/string",-2066596447));
 cljs.core.chunk_append(b__62100,cljs.core.with_meta(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.breadcrumbs.breadcrumb,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"key","key",-1516042587),["breadcrumb-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(breadcrumb_uid)].join(''),new cljs.core.Keyword(null,"on-click","on-click",1632826543),((function (i__62099,map__62101,map__62101__$1,breadcrumb_uid,title,string__$1,c__4527__auto__,size__4528__auto__,b__62100,s__62098__$2,temp__5735__auto__,map__62095,map__62095__$1,string,children,uid,state){
-return (function (p1__62094_SHARP_){
-return athens.views.block_page.breadcrumb_handle_click(p1__62094_SHARP_,uid,breadcrumb_uid);
+return (function (p1__62093_SHARP_){
+return athens.views.block_page.breadcrumb_handle_click(p1__62093_SHARP_,uid,breadcrumb_uid);
 });})(i__62099,map__62101,map__62101__$1,breadcrumb_uid,title,string__$1,c__4527__auto__,size__4528__auto__,b__62100,s__62098__$2,temp__5735__auto__,map__62095,map__62095__$1,string,children,uid,state))
 ], null),(function (){var or__4126__auto__ = title;
 if(cljs.core.truth_(or__4126__auto__)){
@@ -98,8 +98,8 @@ var breadcrumb_uid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__62103__$1,
 var title = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__62103__$1,new cljs.core.Keyword("node","title","node/title",628940777));
 var string__$1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__62103__$1,new cljs.core.Keyword("block","string","block/string",-2066596447));
 return cljs.core.cons(cljs.core.with_meta(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.breadcrumbs.breadcrumb,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"key","key",-1516042587),["breadcrumb-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(breadcrumb_uid)].join(''),new cljs.core.Keyword(null,"on-click","on-click",1632826543),((function (map__62103,map__62103__$1,breadcrumb_uid,title,string__$1,s__62098__$2,temp__5735__auto__,map__62095,map__62095__$1,string,children,uid,state){
-return (function (p1__62094_SHARP_){
-return athens.views.block_page.breadcrumb_handle_click(p1__62094_SHARP_,uid,breadcrumb_uid);
+return (function (p1__62093_SHARP_){
+return athens.views.block_page.breadcrumb_handle_click(p1__62093_SHARP_,uid,breadcrumb_uid);
 });})(map__62103,map__62103__$1,breadcrumb_uid,title,string__$1,s__62098__$2,temp__5735__auto__,map__62095,map__62095__$1,string,children,uid,state))
 ], null),(function (){var or__4126__auto__ = title;
 if(cljs.core.truth_(or__4126__auto__)){

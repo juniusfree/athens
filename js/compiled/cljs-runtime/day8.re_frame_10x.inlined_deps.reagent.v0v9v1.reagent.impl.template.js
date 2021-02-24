@@ -68,10 +68,10 @@ day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.js_val_QMARK
 return (!(("object" === goog.typeOf(x))));
 });
 day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.kv_conv = (function day8$re_frame_10x$inlined_deps$reagent$v0v9v1$reagent$impl$template$kv_conv(o,k,v){
-var G__26626 = o;
-goog.object.set(G__26626,day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.cached_prop_name(k),(day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.convert_prop_value.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.convert_prop_value.cljs$core$IFn$_invoke$arity$1(v) : day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.convert_prop_value.call(null,v)));
+var G__26629 = o;
+goog.object.set(G__26629,day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.cached_prop_name(k),(day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.convert_prop_value.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.convert_prop_value.cljs$core$IFn$_invoke$arity$1(v) : day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.convert_prop_value.call(null,v)));
 
-return G__26626;
+return G__26629;
 });
 day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.convert_prop_value = (function day8$re_frame_10x$inlined_deps$reagent$v0v9v1$reagent$impl$template$convert_prop_value(x){
 if(day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.js_val_QMARK_(x)){
@@ -94,9 +94,9 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(x,args);
 var G__26653 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__26654__i = 0, G__26654__a = new Array(arguments.length -  0);
-while (G__26654__i < G__26654__a.length) {G__26654__a[G__26654__i] = arguments[G__26654__i + 0]; ++G__26654__i;}
-  args = new cljs.core.IndexedSeq(G__26654__a,0,null);
+var G__26656__i = 0, G__26656__a = new Array(arguments.length -  0);
+while (G__26656__i < G__26656__a.length) {G__26656__a[G__26656__i] = arguments[G__26656__i + 0]; ++G__26656__i;}
+  args = new cljs.core.IndexedSeq(G__26656__a,0,null);
 } 
 return G__26653__delegate.call(this,args);};
 G__26653.cljs$lang$maxFixedArity = 0;
@@ -135,10 +135,10 @@ return k;
 }
 });
 day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.custom_kv_conv = (function day8$re_frame_10x$inlined_deps$reagent$v0v9v1$reagent$impl$template$custom_kv_conv(o,k,v){
-var G__26628 = o;
-goog.object.set(G__26628,day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.cached_custom_prop_name(k),day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.convert_prop_value(v));
+var G__26630 = o;
+goog.object.set(G__26630,day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.cached_custom_prop_name(k),day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.convert_prop_value(v));
 
-return G__26628;
+return G__26630;
 });
 day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.convert_custom_prop_value = (function day8$re_frame_10x$inlined_deps$reagent$v0v9v1$reagent$impl$template$convert_custom_prop_value(x){
 if(day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.js_val_QMARK_(x)){
@@ -446,11 +446,11 @@ return ({});
 }
 })();
 var first_child = ((1) + ((hasprops)?(1):(0)));
-var temp__5739__auto___26673 = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.key_from_vec(argv);
-if((temp__5739__auto___26673 == null)){
+var temp__5739__auto___26678 = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.key_from_vec(argv);
+if((temp__5739__auto___26678 == null)){
 } else {
-var key_26674 = temp__5739__auto___26673;
-(jsprops.key = key_26674);
+var key_26683 = temp__5739__auto___26678;
+(jsprops.key = key_26683);
 }
 
 return (day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4 ? day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4(argv,module$node_modules$react$index.Fragment,jsprops,first_child) : day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.make_element.call(null,argv,module$node_modules$react$index.Fragment,jsprops,first_child));

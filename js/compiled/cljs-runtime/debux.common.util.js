@@ -246,9 +246,9 @@ var argseq__4743__auto__ = ((((1) < args__4742__auto__.length))?(new cljs.core.I
 return debux.common.util.form_header.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__4743__auto__);
 });
 
-(debux.common.util.form_header.cljs$core$IFn$_invoke$arity$variadic = (function (form,p__57261){
-var vec__57263 = p__57261;
-var msg = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__57263,(0),null);
+(debux.common.util.form_header.cljs$core$IFn$_invoke$arity$variadic = (function (form,p__57256){
+var vec__57258 = p__57256;
+var msg = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__57258,(0),null);
 return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(debux.common.util.truncate(cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([form], 0)))),cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var and__4115__auto__ = msg;
 if(cljs.core.truth_(and__4115__auto__)){
 return ["   <",cljs.core.str.cljs$core$IFn$_invoke$arity$1(msg),">"].join('');
@@ -261,16 +261,16 @@ return and__4115__auto__;
 (debux.common.util.form_header.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(debux.common.util.form_header.cljs$lang$applyTo = (function (seq57254){
-var G__57255 = cljs.core.first(seq57254);
-var seq57254__$1 = cljs.core.next(seq57254);
+(debux.common.util.form_header.cljs$lang$applyTo = (function (seq57251){
+var G__57252 = cljs.core.first(seq57251);
+var seq57251__$1 = cljs.core.next(seq57251);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__57255,seq57254__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__57252,seq57251__$1);
 }));
 
 debux.common.util.prepend_blanks = (function debux$common$util$prepend_blanks(lines){
-return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__57267_SHARP_){
-return ["  ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__57267_SHARP_)].join('');
+return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__57266_SHARP_){
+return ["  ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__57266_SHARP_)].join('');
 }),lines);
 });
 debux.common.util.pprint_result_with_indent = (function debux$common$util$pprint_result_with_indent(result,indent_level){

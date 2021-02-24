@@ -377,10 +377,10 @@ break;
 case "componentWillUnmount":
 return (function reagent$impl$component$custom_wrapper_$_componentWillUnmount(){
 var c = this;
-var G__31707_31780 = goog.object.get(c,"cljsRatom");
-if((G__31707_31780 == null)){
+var G__31706_31780 = goog.object.get(c,"cljsRatom");
+if((G__31706_31780 == null)){
 } else {
-reagent.ratom.dispose_BANG_(G__31707_31780);
+reagent.ratom.dispose_BANG_(G__31706_31780);
 }
 
 reagent.impl.batching.mark_rendered(c);

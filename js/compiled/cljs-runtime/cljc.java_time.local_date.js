@@ -35,8 +35,8 @@ cljc.java_time.local_date.get_day_of_year = (function cljc$java_time$local_date$
 return this3493.dayOfYear();
 });
 cljc.java_time.local_date.plus = (function cljc$java_time$local_date$plus(var_args){
-var G__41715 = arguments.length;
-switch (G__41715) {
+var G__41717 = arguments.length;
+switch (G__41717) {
 case 2:
 return cljc.java_time.local_date.plus.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -122,8 +122,8 @@ cljc.java_time.local_date.length_of_month = (function cljc$java_time$local_date$
 return this3521.lengthOfMonth();
 });
 cljc.java_time.local_date.until = (function cljc$java_time$local_date$until(var_args){
-var G__41721 = arguments.length;
-switch (G__41721) {
+var G__41723 = arguments.length;
+switch (G__41723) {
 case 2:
 return cljc.java_time.local_date.until.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -173,8 +173,8 @@ cljc.java_time.local_date.get_chronology = (function cljc$java_time$local_date$g
 return this3538.chronology();
 });
 cljc.java_time.local_date.parse = (function cljc$java_time$local_date$parse(var_args){
-var G__41725 = arguments.length;
-switch (G__41725) {
+var G__41727 = arguments.length;
+switch (G__41727) {
 case 1:
 return cljc.java_time.local_date.parse.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

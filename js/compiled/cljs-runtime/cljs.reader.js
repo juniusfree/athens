@@ -343,8 +343,8 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 return cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"readers","readers",-2118263030),cljs.core.deref(cljs.reader._STAR_tag_table_STAR_),new cljs.core.Keyword(null,"default","default",-1987822328),cljs.core.deref(cljs.reader._STAR_default_data_reader_fn_STAR_),new cljs.core.Keyword(null,"eof","eof",-489063237),null], null),reader);
 }));
 
-(cljs.reader.read.cljs$core$IFn$_invoke$arity$2 = (function (p__24726,reader){
-var map__24727 = p__24726;
+(cljs.reader.read.cljs$core$IFn$_invoke$arity$2 = (function (p__24725,reader){
+var map__24727 = p__24725;
 var map__24727__$1 = (((((!((map__24727 == null))))?(((((map__24727.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__24727.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__24727):map__24727);
 var opts = map__24727__$1;
 var eof = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__24727__$1,new cljs.core.Keyword(null,"eof","eof",-489063237));
