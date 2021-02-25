@@ -310,9 +310,9 @@ throw (new Error("Assert failed: (symbol? ns)"));
 }
 
 return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,cljs.core.remove.cljs$core$IFn$_invoke$arity$2((function (p__56753){
-var vec__56754 = p__56753;
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56754,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56754,(1),null);
+var vec__56758 = p__56753;
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56758,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56758,(1),null);
 return new cljs.core.Keyword(null,"private","private",-558947994).cljs$core$IFn$_invoke$arity$1(v);
 }),cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(state),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("cljs.analyzer","namespaces","cljs.analyzer/namespaces",-260788927),ns,new cljs.core.Keyword(null,"macros","macros",811339431)], null)),cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(state),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("cljs.analyzer","namespaces","cljs.analyzer/namespaces",-260788927),ns,new cljs.core.Keyword(null,"defs","defs",1398449717)], null))], 0))));
 }));

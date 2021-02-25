@@ -33,8 +33,8 @@ var after = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__32210__$1,new cljs.
 if(re_frame.interop.debug_enabled_QMARK_){
 var temp__5733__auto___32249 = cljs.core.seq(clojure.set.difference.cljs$core$IFn$_invoke$arity$2(cljs.core.set(cljs.core.keys(m)),re_frame.interceptor.mandatory_interceptor_keys));
 if(temp__5733__auto___32249){
-var unknown_keys_32250 = temp__5733__auto___32249;
-re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["re-frame: ->interceptor",m,"has unknown keys:",unknown_keys_32250], 0));
+var unknown_keys_32251 = temp__5733__auto___32249;
+re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["re-frame: ->interceptor",m,"has unknown keys:",unknown_keys_32251], 0));
 } else {
 }
 } else {
@@ -173,14 +173,14 @@ return cljs.core.assoc_in(context,new cljs.core.PersistentVector(null, 2, 5, clj
 });
 re_frame.interceptor.update_coeffect = (function re_frame$interceptor$update_coeffect(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___32259 = arguments.length;
-var i__4737__auto___32260 = (0);
+var len__4736__auto___32261 = arguments.length;
+var i__4737__auto___32262 = (0);
 while(true){
-if((i__4737__auto___32260 < len__4736__auto___32259)){
-args__4742__auto__.push((arguments[i__4737__auto___32260]));
+if((i__4737__auto___32262 < len__4736__auto___32261)){
+args__4742__auto__.push((arguments[i__4737__auto___32262]));
 
-var G__32263 = (i__4737__auto___32260 + (1));
-i__4737__auto___32260 = G__32263;
+var G__32263 = (i__4737__auto___32262 + (1));
+i__4737__auto___32262 = G__32263;
 continue;
 } else {
 }

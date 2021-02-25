@@ -68,13 +68,13 @@ var count__27442_27470 = (0);
 var i__27443_27471 = (0);
 while(true){
 if((i__27443_27471 < count__27442_27470)){
-var vec__27454_27474 = chunk__27441_27469.cljs$core$IIndexed$_nth$arity$2(null,i__27443_27471);
-var k_27475 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__27454_27474,(0),null);
-var cb_27476 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__27454_27474,(1),null);
+var vec__27454_27473 = chunk__27441_27469.cljs$core$IIndexed$_nth$arity$2(null,i__27443_27471);
+var k_27474 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__27454_27473,(0),null);
+var cb_27475 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__27454_27473,(1),null);
 try{var G__27458_27478 = cljs.core.deref(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.trace.traces);
-(cb_27476.cljs$core$IFn$_invoke$arity$1 ? cb_27476.cljs$core$IFn$_invoke$arity$1(G__27458_27478) : cb_27476.call(null,G__27458_27478));
+(cb_27475.cljs$core$IFn$_invoke$arity$1 ? cb_27475.cljs$core$IFn$_invoke$arity$1(G__27458_27478) : cb_27475.call(null,G__27458_27478));
 }catch (e27457){var e_27479 = e27457;
-day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["Error thrown from trace cb",k_27475,"while storing",cljs.core.deref(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.trace.traces),e_27479], 0));
+day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["Error thrown from trace cb",k_27474,"while storing",cljs.core.deref(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.trace.traces),e_27479], 0));
 }
 
 var G__27480 = seq__27440_27468;
@@ -111,14 +111,14 @@ try{var G__27463_27494 = cljs.core.deref(day8.re_frame_10x.inlined_deps.re_frame
 day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["Error thrown from trace cb",k_27492,"while storing",cljs.core.deref(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.trace.traces),e_27495], 0));
 }
 
-var G__27496 = cljs.core.next(seq__27440_27485__$1);
-var G__27497 = null;
-var G__27498 = (0);
+var G__27497 = cljs.core.next(seq__27440_27485__$1);
+var G__27498 = null;
 var G__27499 = (0);
-seq__27440_27468 = G__27496;
-chunk__27441_27469 = G__27497;
-count__27442_27470 = G__27498;
-i__27443_27471 = G__27499;
+var G__27500 = (0);
+seq__27440_27468 = G__27497;
+chunk__27441_27469 = G__27498;
+count__27442_27470 = G__27499;
+i__27443_27471 = G__27500;
 continue;
 }
 } else {
